@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7109e833c5a6b4a4da1858d27c9f41fa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Materials/Grid2OrangeOffset.mat
+  uploadId: 781910

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: c540075e003f71747a9b346e2c89d688
+timeCreated: 1572706571
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Scripts/Drown.cs
+  uploadId: 781912

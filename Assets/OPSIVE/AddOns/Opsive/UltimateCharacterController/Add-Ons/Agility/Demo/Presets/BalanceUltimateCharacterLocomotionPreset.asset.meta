@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55c502fa3de375542c1691cc5db1395c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/BalanceUltimateCharacterLocomotionPreset.asset
+  uploadId: 781910

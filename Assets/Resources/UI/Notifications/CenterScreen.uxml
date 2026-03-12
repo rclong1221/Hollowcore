@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <!-- EPIC 18.3: Center screen notification element template. -->
+    <ui:VisualElement name="notification-center" class="notification-center">
+        <ui:VisualElement class="notification-center__backdrop" />
+        <ui:VisualElement class="notification-center__panel">
+            <ui:VisualElement name="icon" class="notification-center__icon" />
+            <ui:Label name="title" class="notification-center__title" />
+            <ui:Label name="body" class="notification-center__body" />
+            <ui:VisualElement class="notification-center__buttons row justify-center gap-sm">
+                <ui:Button name="action-btn" class="pro-button pro-button--sm" style="display: none;" />
+                <ui:Button name="dismiss-btn" text="Dismiss"
+                    class="pro-button pro-button--ghost pro-button--sm" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

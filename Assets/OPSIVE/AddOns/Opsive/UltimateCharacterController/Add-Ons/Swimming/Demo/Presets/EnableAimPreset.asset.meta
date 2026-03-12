@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dda68bf17986d144e915200098e28bab
+timeCreated: 1573915544
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/EnableAimPreset.asset
+  uploadId: 781912

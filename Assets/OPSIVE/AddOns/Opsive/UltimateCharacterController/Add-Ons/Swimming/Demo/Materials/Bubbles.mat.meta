@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2dc7c557f599dc341aff9e50c14e7171
+timeCreated: 1573845077
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Materials/Bubbles.mat
+  uploadId: 781912

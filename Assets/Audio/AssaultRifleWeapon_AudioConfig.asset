@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31757d1c7f5eb411ca558c3b72988318, type: 3}
+  m_Name: AssaultRifleWeapon_AudioConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Weapons.Audio.WeaponAudioConfig
+  FireClips:
+  - {fileID: 8300000, guid: 2d8e96ae38d893b428bfa05f45141e08, type: 3}
+  FireVolume: 1
+  FirePitchVariation: 0.05
+  FireDistantClips: []
+  DistantSoundDistance: 50
+  DryFireClips:
+  - {fileID: 8300000, guid: e1c8572f28ddd4c48ae413189bd9acd2, type: 3}
+  - {fileID: 8300000, guid: e1c8572f28ddd4c48ae413189bd9acd2, type: 3}
+  DryFireVolume: 0.7
+  ReloadStartClips:
+  - {fileID: 8300000, guid: 2c7840cd69a940d488e857ffaeee1f73, type: 3}
+  MagOutClips:
+  - {fileID: 8300000, guid: accf33387ed73af4fac6208871199082, type: 3}
+  MagInClips:
+  - {fileID: 8300000, guid: d89df89438f74a149b4a0b1b4438153d, type: 3}
+  BoltPullClips: []
+  ReloadCompleteClips:
+  - {fileID: 8300000, guid: e8775ce9d9caacb47aeedbae9142fc1b, type: 3}
+  ReloadVolume: 0.8
+  ShellBounceClips:
+  - {fileID: 8300000, guid: 99d2a7e4ba5ef064493f7c2c2143f2ff, type: 3}
+  ShellVolume: 0.4
+  EquipClips:
+  - {fileID: 8300000, guid: 31722ee00fd6f0f4abf5d53d5170a3be, type: 3}
+  UnequipClips:
+  - {fileID: 8300000, guid: ff9c757fd4c413b4baf272f1ae0740db, type: 3}
+  EquipVolume: 0.6
+  MeleeSwingClips: []
+  MeleeHitClips: []
+  MeleeVolume: 0.8
+  BowDrawClips: []
+  BowReleaseClips: []
+  BowCancelClips: []
+  ArrowNockClips: []
+  BowVolume: 0.7
+  ThrowChargeClips: []
+  ThrowReleaseClips: []
+  ThrowVolume: 0.7
+  BlockStartClips: []
+  BlockImpactClips: []
+  ParrySuccessClips: []
+  ShieldVolume: 0.8
+  MinDistance: 1
+  MaxDistance: 100
+  SpatialBlend: 1

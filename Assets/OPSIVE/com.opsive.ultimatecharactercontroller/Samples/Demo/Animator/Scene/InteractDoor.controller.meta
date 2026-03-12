@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5547876a366274db9869928b561c8ec2
+timeCreated: 1514928893
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animator/Scene/InteractDoor.controller
+  uploadId: 836594

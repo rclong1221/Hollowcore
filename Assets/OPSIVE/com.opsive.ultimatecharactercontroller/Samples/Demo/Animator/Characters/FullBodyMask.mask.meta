@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b77563514df0542fc8b69ba8285f7429
+timeCreated: 1492198222
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animator/Characters/FullBodyMask.mask
+  uploadId: 836594

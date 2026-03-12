@@ -1,0 +1,167 @@
+/*
+ * EPIC 18.2: Settings Screen Styles
+ * Requires: Variables.uss, Components.uss (loaded globally by UIToolkitService)
+ */
+
+/* === Tab Buttons === */
+
+.settings-tab {
+    height: var(--button-height-md);
+    padding: 0 var(--spacing-md);
+    margin: 0 var(--spacing-xxs);
+
+    background-color: transparent;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: transparent;
+    border-radius: 0;
+
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-md);
+    -unity-text-align: middle-center;
+
+    transition-duration: var(--transition-fast);
+    transition-property: color, border-bottom-color, background-color;
+}
+
+.settings-tab:hover {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-light);
+}
+
+.settings-tab--active {
+    color: var(--color-primary-light);
+    border-bottom-color: var(--color-primary);
+}
+
+/* === Section Headers === */
+
+.settings-section-header {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    -unity-font-style: bold;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
+    padding-bottom: var(--spacing-xs);
+    border-bottom-width: var(--border-width-thin);
+    border-bottom-color: var(--color-border-subtle);
+}
+
+/* === Settings Row (label + control) === */
+
+.settings-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm) 0;
+    min-height: 36px;
+}
+
+.settings-row-label {
+    font-size: var(--font-size-md);
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+    min-width: 180px;
+}
+
+.settings-row-control {
+    flex-grow: 1;
+    max-width: 300px;
+    align-items: flex-end;
+}
+
+/* === Slider Row === */
+
+.settings-slider-row {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.settings-slider-row Slider {
+    flex-grow: 1;
+}
+
+.settings-slider-value {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    min-width: 40px;
+    -unity-text-align: middle-right;
+    margin-left: var(--spacing-sm);
+}
+
+/* === Dropdown === */
+
+.settings-dropdown {
+    min-width: 200px;
+    max-width: 300px;
+}
+
+/* === Toggle === */
+
+.settings-toggle {
+    flex-direction: row-reverse;
+}
+
+/* === Confirmation Countdown === */
+
+.settings-confirm-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-confirm-panel {
+    background-color: var(--color-bg-panel);
+    border-width: var(--border-width-default);
+    border-color: var(--color-border-default);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    min-width: 350px;
+    align-items: center;
+}
+
+.settings-confirm-text {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    margin-bottom: var(--spacing-md);
+    -unity-text-align: middle-center;
+}
+
+.settings-confirm-countdown {
+    font-size: var(--font-size-xxl);
+    color: var(--color-warning);
+    -unity-font-style: bold;
+    margin-bottom: var(--spacing-md);
+}
+
+.settings-confirm-buttons {
+    flex-direction: row;
+    gap: var(--spacing-sm);
+}
+
+/* === Keybind Link Button === */
+
+.settings-keybind-btn {
+    height: var(--button-height-lg);
+    margin-top: var(--spacing-sm);
+}
+
+/* === Unsaved Changes Dialog === */
+
+.settings-unsaved-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}

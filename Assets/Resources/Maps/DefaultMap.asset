@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13581e5c2be04566afb8bf51b6398e2, type: 3}
+  m_Name: DefaultMap
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Lobby.MapDefinitionSO
+  MapId: 0
+  DisplayName: Default Map
+  Description: The default multiplayer map.
+  Thumbnail: {fileID: 0}
+  ScenePath: 
+  SubscenePaths: []
+  MinPlayers: 1
+  MaxPlayers: 4
+  EstimatedMinutes: 30
+  SupportedGameModes: 00
+  SpawnPositions:
+  - {x: 0, y: 1, z: 0}
+  - {x: 3, y: 1, z: 0}
+  - {x: 6, y: 1, z: 0}
+  - {x: 9, y: 1, z: 0}
+  SpawnRotations:
+  - {x: 0, y: 0, z: 0, w: 1}
+  - {x: 0, y: 0, z: 0, w: 1}
+  - {x: 0, y: 0, z: 0, w: 1}
+  - {x: 0, y: 0, z: 0, w: 1}
+  UnlockRequirement: 0

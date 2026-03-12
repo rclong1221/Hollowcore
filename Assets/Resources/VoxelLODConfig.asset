@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14b6d74f8feb40c1b37ef81d67deae8, type: 3}
+  m_Name: VoxelLODConfig
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Rendering.VoxelLODConfig
+  Levels:
+  - Distance: 32
+    VoxelStep: 1
+    HasCollider: 1
+    DebugColor: {r: 0, g: 1, b: 0, a: 0.3}
+  - Distance: 64
+    VoxelStep: 2
+    HasCollider: 1
+    DebugColor: {r: 1, g: 1, b: 0, a: 0.3}
+  - Distance: 128
+    VoxelStep: 4
+    HasCollider: 0
+    DebugColor: {r: 1, g: 0.5, b: 0, a: 0.3}
+  - Distance: 256
+    VoxelStep: 8
+    HasCollider: 0
+    DebugColor: {r: 1, g: 0, b: 0, a: 0.3}
+  UpdateFrequency: 0.5
+  Hysteresis: 2
+  MaxUpdatesPerFrame: 5
+  EnableColliderLOD: 1

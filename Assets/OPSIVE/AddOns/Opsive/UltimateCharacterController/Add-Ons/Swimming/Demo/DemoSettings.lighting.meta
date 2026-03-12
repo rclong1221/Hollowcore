@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1000da4a272b0be4da59aa5c2626e566
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/DemoSettings.lighting
+  uploadId: 781912

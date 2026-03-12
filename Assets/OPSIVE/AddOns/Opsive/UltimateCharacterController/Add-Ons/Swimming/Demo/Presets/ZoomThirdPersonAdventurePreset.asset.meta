@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ff85e2c0e3ea94e46acab6408e83b87b
+timeCreated: 1521677717
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/ZoomThirdPersonAdventurePreset.asset
+  uploadId: 781912

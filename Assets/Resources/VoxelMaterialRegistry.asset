@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a7e3b5d2f1a4c6e9b0d1f2a3c4e5b6, type: 3}
+  m_Name: VoxelMaterialRegistry
+  m_EditorClassIdentifier: DIG.Voxel:DIG.Voxel.Core:VoxelMaterialRegistry
+  Materials:
+  - {fileID: 11400000, guid: 5dd2d3ec3a5aa4526819378a842c8093, type: 2}
+  - {fileID: 11400000, guid: 9b66ce9c0d395420e8af74e37d527ce8, type: 2}
+  - {fileID: 11400000, guid: 454b4eca339c74fd19fef08cb44c71e2, type: 2}
+  - {fileID: 11400000, guid: b8b09f3a96271452b803d13a641e59b3, type: 2}
+  - {fileID: 11400000, guid: 348ac104f3ac844b08bda35799706243, type: 2}
+  - {fileID: 11400000, guid: 2c9ce5569a515450ca35b7424fb325ff, type: 2}
+  - {fileID: 11400000, guid: 5ff4e2952b32a460283fd75b654dfc5c, type: 2}
+  - {fileID: 11400000, guid: 4955f2ccc68c347d1b903e14ca857ce2, type: 2}
+  - {fileID: 11400000, guid: 0f676d8989615429093811280dd5d6e0, type: 2}
+  - {fileID: 11400000, guid: 70f4cee65ec5d4bb095778b1ae18f059, type: 2}
+  - {fileID: 11400000, guid: 9dc595df08b66478e9e3660d6650d33b, type: 2}
+  - {fileID: 11400000, guid: d9e0348e37f024b029578242b774c7f4, type: 2}
+  - {fileID: 11400000, guid: 6f6f68d19484c489fb0318608cba1414, type: 2}

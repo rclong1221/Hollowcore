@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4dc5d3bb83a225b45bd2b3a15f915d74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248579
+  packageName: Climbing Pack for Opsive Character Controllers
+  packageVersion: 2.0.5
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Climbing/Scripts/Objects/Ladder.cs
+  uploadId: 781911

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 4057d22c68b49e94c9b49ae3e76dc714
+timeCreated: 1573263471
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/SwimAdventurePreset.asset
+  uploadId: 781912

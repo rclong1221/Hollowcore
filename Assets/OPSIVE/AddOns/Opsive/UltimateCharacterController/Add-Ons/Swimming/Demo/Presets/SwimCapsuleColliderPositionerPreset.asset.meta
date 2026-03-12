@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 87822871c8c5eae4f945293f1221eb0b
+timeCreated: 1572720019
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/SwimCapsuleColliderPositionerPreset.asset
+  uploadId: 781912

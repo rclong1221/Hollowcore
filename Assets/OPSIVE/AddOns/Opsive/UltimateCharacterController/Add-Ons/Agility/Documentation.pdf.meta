@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9c63f0de432f4d5468c6a2fd73dfaa9d
+timeCreated: 1553425227
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Documentation.pdf
+  uploadId: 781910

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1195045de924dce8b42fb856f692d5, type: 3}
+  m_Name: CombatFeedbackConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Combat.UI.Config.CombatFeedbackConfig
+  EnableDamageStacking: 1
+  DamageStackingWindow: 0.1
+  DamageNumberCullDistance: 50
+  DamageNumberOffsetRange: {x: 0.3, y: 0.6}
+  FloatingTextPoolSize: 50
+  FloatingTextLifetime: 1.5
+  FloatingTextRiseSpeed: 1
+  FloatingTextSpamCooldown: 0.3
+  EnemyHealthBarPoolSize: 20
+  HealthBarPersistDuration: 3
+  HealthBarHeightOffset: 1.5
+  HealthBarMaxDistance: 25
+  HealthBarFadeStartDistance: 15
+  EnableHealthTrail: 1
+  HealthTrailSpeed: 2
+  MaxDamageIndicators: 8
+  IndicatorDuration: 1.5
+  IndicatorRadius: 0.4
+  NormalDamageColor: {r: 1, g: 0, b: 0, a: 0.8}
+  CriticalDamageColor: {r: 1, g: 0.5, b: 0, a: 0.9}
+  ComboTimeout: 3
+  ComboMilestones: 050000000a000000190000003200000064000000
+  ShowMultiplier: 1
+  MultiplierIncrement: 0.05
+  MaxKillFeedEntries: 5
+  KillFeedEntryDuration: 4
+  ShowHeadshotIcons: 1
+  ShowKillStreaks: 1
+  MaxStatusIcons: 10
+  StatusExpiringThreshold: 3
+  SeparateBuffsAndDebuffs: 1
+  MaxLogEntries: 200
+  ShowTimestamps: 1
+  ShowDamageSource: 1
+  InteractionRingPoolSize: 10
+  DefaultInteractionTime: 1
+  InteractionActiveColor: {r: 0.2, g: 0.8, b: 0.2, a: 1}
+  InteractionCancelledColor: {r: 0.8, g: 0.2, b: 0.2, a: 1}

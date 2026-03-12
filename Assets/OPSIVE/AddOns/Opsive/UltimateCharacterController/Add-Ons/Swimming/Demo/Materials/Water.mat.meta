@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e61e8e4a87e010c45a42fcdd5df2074d
+timeCreated: 1573230946
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Materials/Water.mat
+  uploadId: 781912

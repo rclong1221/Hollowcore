@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9562b4bb735883b4ab9b15273abde828
+timeCreated: 1545599381
+licenseType: Store
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Editor/Opsive.UltimateCharacterController.AddOns.Swimming.Editor.asmdef
+  uploadId: 781912

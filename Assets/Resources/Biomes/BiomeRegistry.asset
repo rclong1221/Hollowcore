@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e21dc07ab067480eb3f49d92bf96c82, type: 3}
+  m_Name: BiomeRegistry
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Biomes.BiomeRegistry
+  Biomes:
+  - {fileID: 11400000, guid: e9d325a31820744609cd1d930f32876c, type: 2}
+  - {fileID: 11400000, guid: 3b24739d4508544df8800cc0d60e5205, type: 2}
+  - {fileID: 11400000, guid: 710e5ed183429410285d251788ee17eb, type: 2}
+  - {fileID: 11400000, guid: 74f974dc1d5304bdda03df93997e3578, type: 2}
+  - {fileID: 11400000, guid: d232d02fc69fd4e83b504ab18d0265c6, type: 2}
+  - {fileID: 11400000, guid: 4ac79ea8e512049e89360658a60b427f, type: 2}
+  - {fileID: 11400000, guid: ef13542745aff451db95765f833f0b27, type: 2}
+  GlobalNoiseScale: 0.002
+  FallbackBiome: {fileID: 11400000, guid: e9d325a31820744609cd1d930f32876c, type: 2}

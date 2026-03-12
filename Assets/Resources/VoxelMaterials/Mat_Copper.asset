@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf04a7f5447524176b4960d3cf067c8f, type: 3}
+  m_Name: Mat_Copper
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Core.VoxelMaterialDefinition
+  MaterialID: 5
+  MaterialName: Copper
+  Hardness: 1.8
+  IsMineable: 1
+  LootPrefab: {fileID: 6363468403542567565, guid: c921173b4dca74a39a510a9c612018d1, type: 3}
+  MinDropCount: 1
+  MaxDropCount: 1
+  DropChance: 1
+  VisualMaterial: {fileID: 11400000, guid: 936c47e3d8a6845bf8ae4e2acca8221e, type: 2}
+  DebugColor: {r: 0.8, g: 0.5, b: 0.2, a: 1}
+  TextureArrayIndex: 5

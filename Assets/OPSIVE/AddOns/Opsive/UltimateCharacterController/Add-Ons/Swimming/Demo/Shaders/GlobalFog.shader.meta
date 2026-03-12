@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f35dc7f2dbbd77048989b7bc87c97a2f
+timeCreated: 1573230882
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Shaders/GlobalFog.shader
+  uploadId: 781912

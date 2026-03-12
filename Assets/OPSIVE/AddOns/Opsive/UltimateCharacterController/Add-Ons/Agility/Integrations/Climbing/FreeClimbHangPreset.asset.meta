@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49ea0eb023e10094e990ea0f7f5da17d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Integrations/Climbing/FreeClimbHangPreset.asset
+  uploadId: 781910

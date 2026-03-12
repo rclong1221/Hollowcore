@@ -1,0 +1,26 @@
+{
+    "name": "DIG.Survival",
+    "rootNamespace": "DIG.Survival",
+    "references": [
+        "DIG.Shared",
+        "DIG.Interaction",
+        "DIG.Voxel",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.NetCode",
+        "Unity.Physics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

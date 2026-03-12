@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- EPIC 18.2: Settings screen shell. Content built programmatically by SettingsScreenController. -->
+    <ui:VisualElement name="settings-overlay" class="overlay">
+        <ui:VisualElement name="settings-panel" class="panel"
+            style="width: 70%; max-width: 900px; height: 80%; flex-direction: column;">
+
+            <!-- Header -->
+            <ui:VisualElement name="settings-header" class="panel-header row justify-between align-center">
+                <ui:Label name="settings-title" text="Settings" class="text-header" />
+                <ui:Button name="close-btn" text="&#x2715;" class="modal-close" />
+            </ui:VisualElement>
+
+            <!-- Tab bar -->
+            <ui:VisualElement name="tab-bar" class="row gap-xs"
+                style="margin-bottom: 16px; flex-shrink: 0;" />
+
+            <!-- Page content (scrollable) -->
+            <ui:ScrollView name="page-content" class="flex-grow"
+                style="flex-grow: 1;" />
+
+            <!-- Footer -->
+            <ui:VisualElement name="settings-footer" class="panel-footer">
+                <ui:Button name="defaults-btn" text="Reset to Defaults"
+                    class="pro-button pro-button--ghost pro-button--sm" />
+                <ui:Button name="revert-btn" text="Revert"
+                    class="pro-button pro-button--secondary pro-button--sm" />
+                <ui:Button name="apply-btn" text="Apply"
+                    class="pro-button pro-button--sm" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

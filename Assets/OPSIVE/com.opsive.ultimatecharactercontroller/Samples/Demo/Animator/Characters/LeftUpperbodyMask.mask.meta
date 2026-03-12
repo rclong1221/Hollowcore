@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a99b42d594267403db7552f9c7797247
+timeCreated: 1492198222
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animator/Characters/LeftUpperbodyMask.mask
+  uploadId: 836594

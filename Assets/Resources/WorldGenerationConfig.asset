@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b61fd373d4d69454a88eaf3a6620bc12, type: 3}
+  m_Name: WorldGenerationConfig
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Core.WorldGenerationConfig
+  GroundLevel: 0
+  Seed: 12345
+  StrataProfile: {fileID: 11400000, guid: 4dc289208f07d48f2a11e990371f3f3d, type: 2}
+  DepthCurve: {fileID: 11400000, guid: 5a0f900e16e674dbb8f77eb9c778ea66, type: 2}
+  OreDefinitions:
+  - {fileID: 11400000, guid: dc74d7549eba148cbb8ffb9911dc523d, type: 2}
+  - {fileID: 11400000, guid: cf33f60aa10c74362af928091f513da5, type: 2}
+  - {fileID: 11400000, guid: fe4bef24c6f284570b4534f2151629ef, type: 2}
+  - {fileID: 11400000, guid: 481fb860489c64e05b249a619fa9e5d2, type: 2}
+  - {fileID: 11400000, guid: 4055b13820a664532bfe993ec3e0ed4a, type: 2}
+  - {fileID: 11400000, guid: 2d47f248b7f9940d19c0e1734570bad7, type: 2}
+  - {fileID: 11400000, guid: 82a9c7a0746034d048d6c37f01123542, type: 2}
+  - {fileID: 11400000, guid: 0de4e09e17eac464d868520579c9c707, type: 2}
+  TerrainNoiseScale: 0.02
+  TerrainNoiseAmplitude: 10
+  EnableOres: 1
+  EnableStrata: 1

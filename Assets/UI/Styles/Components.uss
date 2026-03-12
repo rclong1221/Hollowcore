@@ -1,0 +1,797 @@
+/*
+ * DIG UI Design System - Reusable Components
+ * EPIC 15.8: Core Architecture & UI Overhaul
+ * 
+ * Usage: @import url("Components.uss");
+ * Requires: Variables.uss
+ */
+
+@import url("Variables.uss");
+
+/* ===========================================
+ * BUTTONS
+ * =========================================== */
+
+.pro-button {
+    height: var(--button-height-md);
+    padding: 0 var(--spacing-md);
+    margin: var(--spacing-xs);
+    
+    background-color: var(--color-primary);
+    border-width: var(--border-width-default);
+    border-color: var(--color-primary-light);
+    border-radius: var(--radius-sm);
+    
+    color: var(--color-text-primary);
+    font-size: var(--font-size-md);
+    -unity-text-align: middle-center;
+    
+    transition-duration: var(--transition-fast);
+    transition-property: background-color, border-color, scale;
+}
+
+.pro-button:hover {
+    background-color: var(--color-primary-hover);
+    border-color: var(--color-primary-light);
+    scale: 1.02 1.02;
+}
+
+.pro-button:active {
+    background-color: var(--color-primary-dark);
+    scale: 0.98 0.98;
+}
+
+.pro-button:focus {
+    border-color: var(--color-accent);
+    border-width: var(--border-width-thick);
+}
+
+.pro-button:disabled {
+    background-color: var(--color-bg-light);
+    border-color: var(--color-border-subtle);
+    color: var(--color-text-disabled);
+}
+
+/* Button Variants */
+.pro-button--secondary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary-light);
+}
+
+.pro-button--secondary:hover {
+    background-color: var(--color-secondary-light);
+}
+
+.pro-button--danger {
+    background-color: var(--color-danger);
+    border-color: var(--color-danger-light);
+}
+
+.pro-button--danger:hover {
+    background-color: var(--color-danger-light);
+}
+
+.pro-button--ghost {
+    background-color: transparent;
+    border-color: var(--color-border-default);
+}
+
+.pro-button--ghost:hover {
+    background-color: var(--color-bg-light);
+}
+
+/* Button Sizes */
+.pro-button--sm {
+    height: var(--button-height-sm);
+    padding: 0 var(--spacing-sm);
+    font-size: var(--font-size-sm);
+}
+
+.pro-button--lg {
+    height: var(--button-height-lg);
+    padding: 0 var(--spacing-lg);
+    font-size: var(--font-size-lg);
+}
+
+/* ===========================================
+ * PANELS
+ * =========================================== */
+
+.panel {
+    background-color: var(--color-bg-panel);
+    border-width: var(--border-width-thin);
+    border-color: var(--color-border-default);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+}
+
+.panel-glass {
+    background-color: var(--color-bg-glass);
+    border-width: var(--border-width-thin);
+    border-color: var(--color-border-subtle);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    /* Note: Blur not supported in USS - requires shader */
+}
+
+.panel-header {
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-sm);
+    border-bottom-width: var(--border-width-thin);
+    border-bottom-color: var(--color-border-subtle);
+}
+
+.panel-body {
+    flex-grow: 1;
+}
+
+.panel-footer {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+    border-top-width: var(--border-width-thin);
+    border-top-color: var(--color-border-subtle);
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* ===========================================
+ * TYPOGRAPHY
+ * =========================================== */
+
+.text-header {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-primary);
+    -unity-font-style: bold;
+    margin-bottom: var(--spacing-sm);
+}
+
+.text-subheader {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    -unity-font-style: bold;
+    margin-bottom: var(--spacing-xs);
+}
+
+.text-body {
+    font-size: var(--font-size-md);
+    color: var(--color-text-secondary);
+}
+
+.text-caption {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+.text-label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    -unity-font-style: bold;
+    letter-spacing: var(--letter-spacing-wide);
+    text-transform: uppercase;
+}
+
+.text-mono {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    /* -unity-font: var(--font-mono); */
+}
+
+/* Text Colors */
+.text-primary { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+.text-muted { color: var(--color-text-muted); }
+.text-success { color: var(--color-success); }
+.text-warning { color: var(--color-warning); }
+.text-danger { color: var(--color-danger); }
+.text-info { color: var(--color-info); }
+.text-accent { color: var(--color-accent); }
+
+/* ===========================================
+ * PROGRESS BARS
+ * =========================================== */
+
+.progress-bar {
+    height: 8px;
+    background-color: var(--color-bg-dark);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+}
+
+.progress-bar__fill {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: var(--radius-full);
+    transition-duration: var(--transition-normal);
+    transition-property: width;
+}
+
+/* Health Bar */
+.health-bar {
+    height: 12px;
+    background-color: var(--color-bg-dark);
+    border-width: var(--border-width-thin);
+    border-color: var(--color-border-subtle);
+    border-radius: var(--radius-sm);
+}
+
+.health-bar__fill {
+    height: 100%;
+    background-color: var(--color-health-full);
+    transition-duration: var(--transition-normal);
+}
+
+.health-bar__fill--high {
+    background-color: var(--color-health-high);
+}
+
+.health-bar__fill--medium {
+    background-color: var(--color-health-medium);
+}
+
+.health-bar__fill--low {
+    background-color: var(--color-health-low);
+}
+
+.health-bar__fill--critical {
+    background-color: var(--color-health-critical);
+}
+
+/* ===========================================
+ * INPUT FIELDS
+ * =========================================== */
+
+.input-field {
+    height: var(--input-height-md);
+    padding: 0 var(--spacing-sm);
+    
+    background-color: var(--color-bg-dark);
+    border-width: var(--border-width-thin);
+    border-color: var(--color-border-default);
+    border-radius: var(--radius-sm);
+    
+    color: var(--color-text-primary);
+    font-size: var(--font-size-md);
+}
+
+.input-field:focus {
+    border-color: var(--color-primary);
+    border-width: var(--border-width-default);
+}
+
+.input-field:disabled {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-disabled);
+}
+
+/* ===========================================
+ * LISTS
+ * =========================================== */
+
+.list-item {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: transparent;
+    border-bottom-width: var(--border-width-thin);
+    border-bottom-color: var(--color-border-subtle);
+    
+    transition-duration: var(--transition-fast);
+    transition-property: background-color;
+}
+
+.list-item:hover {
+    background-color: var(--color-bg-light);
+}
+
+.list-item--selected {
+    background-color: var(--color-primary-dark);
+    border-left-width: 3px;
+    border-left-color: var(--color-primary);
+}
+
+/* ===========================================
+ * ICONS
+ * =========================================== */
+
+.icon {
+    width: var(--icon-size-md);
+    height: var(--icon-size-md);
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.icon--sm {
+    width: var(--icon-size-sm);
+    height: var(--icon-size-sm);
+}
+
+.icon--lg {
+    width: var(--icon-size-lg);
+    height: var(--icon-size-lg);
+}
+
+.icon--xl {
+    width: var(--icon-size-xl);
+    height: var(--icon-size-xl);
+}
+
+/* ===========================================
+ * TOOLTIPS
+ * =========================================== */
+
+.tooltip {
+    position: absolute;
+    padding: var(--spacing-sm) var(--spacing-md);
+    
+    background-color: var(--color-bg-dark);
+    border-width: var(--border-width-thin);
+    border-color: var(--color-border-default);
+    border-radius: var(--radius-sm);
+    
+    font-size: var(--font-size-sm);
+    color: var(--color-text-primary);
+    
+    max-width: 300px;
+}
+
+/* ===========================================
+ * OVERLAYS / MODALS
+ * =========================================== */
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-bg-overlay);
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    min-width: 300px;
+    max-width: 600px;
+    
+    background-color: var(--color-bg-panel);
+    border-width: var(--border-width-default);
+    border-color: var(--color-border-default);
+    border-radius: var(--radius-lg);
+    
+    padding: var(--spacing-lg);
+}
+
+.modal-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.modal-title {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-primary);
+    -unity-font-style: bold;
+}
+
+.modal-close {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border-width: 0;
+    font-size: var(--font-size-lg);
+    color: var(--color-text-muted);
+}
+
+.modal-close:hover {
+    color: var(--color-text-primary);
+}
+
+/* ===========================================
+ * GRID & LAYOUT
+ * =========================================== */
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.gap-xs { gap: var(--spacing-xs); }
+.gap-sm { gap: var(--spacing-sm); }
+.gap-md { gap: var(--spacing-md); }
+.gap-lg { gap: var(--spacing-lg); }
+
+.p-xs { padding: var(--spacing-xs); }
+.p-sm { padding: var(--spacing-sm); }
+.p-md { padding: var(--spacing-md); }
+.p-lg { padding: var(--spacing-lg); }
+
+.m-xs { margin: var(--spacing-xs); }
+.m-sm { margin: var(--spacing-sm); }
+.m-md { margin: var(--spacing-md); }
+.m-lg { margin: var(--spacing-lg); }
+
+.align-center { align-items: center; }
+.align-start { align-items: flex-start; }
+.align-end { align-items: flex-end; }
+
+.justify-center { justify-content: center; }
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+
+/* ===========================================
+ * HUD ELEMENTS
+ * =========================================== */
+
+.hud-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: var(--spacing-md);
+}
+
+.hud-top-left {
+    position: absolute;
+    left: var(--spacing-md);
+    top: var(--spacing-md);
+}
+
+.hud-top-right {
+    position: absolute;
+    right: var(--spacing-md);
+    top: var(--spacing-md);
+}
+
+.hud-bottom-left {
+    position: absolute;
+    left: var(--spacing-md);
+    bottom: var(--spacing-md);
+}
+
+.hud-bottom-right {
+    position: absolute;
+    right: var(--spacing-md);
+    bottom: var(--spacing-md);
+}
+
+.hud-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+}
+
+.hud-bottom-center {
+    position: absolute;
+    left: 50%;
+    bottom: var(--spacing-lg);
+    translate: -50% 0;
+}
+
+/* ===========================================
+ * INPUT GLYPHS & INTERACTION PROMPTS
+ * EPIC 15.8: Input Glyph System
+ * =========================================== */
+
+.interaction-prompt {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    translate: -50% 0;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+
+.interaction-prompt.visible {
+    opacity: 1;
+}
+
+.interaction-prompt .panel-glass {
+    flex-direction: row;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+.glyph-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: var(--spacing-sm);
+}
+
+.glyph-icon-sm {
+    width: 24px;
+    height: 24px;
+}
+
+.glyph-icon-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.prompt-text {
+    color: var(--color-text-primary);
+    font-size: var(--font-size-md);
+    -unity-font-style: bold;
+}
+
+/* Keyboard key style (inline) */
+.key-glyph {
+    background-color: rgba(60, 60, 60, 0.9);
+    border-width: 1px;
+    border-color: rgba(100, 100, 100, 0.8);
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: white;
+    font-size: var(--font-size-sm);
+    -unity-font-style: bold;
+    min-width: 24px;
+    -unity-text-align: middle-center;
+}
+
+/* Gamepad button style */
+.gamepad-glyph {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* ===========================================
+ * FLASHLIGHT HUD
+ * EPIC 15.8: Flashlight Battery Display
+ * =========================================== */
+
+.battery-bar {
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.battery-bar__fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.1s ease-out, background-color 0.2s ease-out;
+}
+
+.battery-bar__fill--active {
+    background-color: rgb(51, 204, 255); /* Cyan - flashlight on */
+}
+
+.battery-bar__fill--off {
+    background-color: rgb(128, 128, 128); /* Gray - flashlight off */
+}
+
+.battery-bar__fill--low {
+    background-color: rgb(255, 153, 51); /* Orange - low battery */
+}
+
+.battery-bar__fill--empty {
+    background-color: rgb(255, 51, 51); /* Red - empty */
+}
+
+/* Flicker animation for low battery */
+.flickering {
+    opacity: 1;
+}
+
+/* Note: USS doesn't support @keyframes, so flicker is handled via code */
+/* The View toggles opacity or uses USS transitions */
+
+/* ===========================================
+ * AAA HEALTH BAR EFFECTS
+ * EPIC 15.8: Premium Visual Polish
+ * =========================================== */
+
+/* Health bar with gradient effect via inner shadow simulation */
+.health-bar-aaa {
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    /* Subtle inset look */
+    padding: 2px;
+}
+
+.health-bar-aaa__track {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.health-bar-aaa__fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.15s ease-out, background-color 0.3s ease-out;
+}
+
+/* Health gradient colors - Green to Red */
+.health-bar-aaa__fill--full {
+    background-color: rgb(46, 204, 113); /* Emerald green */
+}
+
+.health-bar-aaa__fill--high {
+    background-color: rgb(39, 174, 96); /* Forest green */
+}
+
+.health-bar-aaa__fill--medium {
+    background-color: rgb(241, 196, 15); /* Sunflower yellow */
+}
+
+.health-bar-aaa__fill--low {
+    background-color: rgb(230, 126, 34); /* Carrot orange */
+}
+
+.health-bar-aaa__fill--critical {
+    background-color: rgb(231, 76, 60); /* Alizarin red */
+}
+
+/* Critical pulse effect - applied via code */
+.health-bar-aaa--critical-pulse {
+    /* Base state for pulse animation */
+}
+
+/* Glow overlay for health bar (positioned absolutely inside) */
+.health-bar-aaa__glow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+
+.health-bar-aaa__glow--active {
+    opacity: 0.6;
+    background-color: rgba(231, 76, 60, 0.4);
+}
+
+/* Heartbeat text effect when critical */
+.health-text--critical {
+    color: rgb(231, 76, 60);
+    -unity-font-style: bold;
+}
+
+/* ===========================================
+ * AAA FLASHLIGHT/BATTERY BAR
+ * Segmented Cell Look
+ * =========================================== */
+
+.battery-bar-segmented {
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+    padding: 2px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Individual battery cell */
+.battery-cell {
+    flex-grow: 1;
+    height: 100%;
+    margin-right: 2px;
+    border-radius: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.15s ease-out, opacity 0.1s ease-out;
+}
+
+.battery-cell:last-child {
+    margin-right: 0;
+}
+
+/* Filled cell states */
+.battery-cell--filled {
+    background-color: rgb(51, 204, 255); /* Cyan when on */
+}
+
+.battery-cell--filled-off {
+    background-color: rgb(100, 100, 100); /* Gray when off */
+}
+
+.battery-cell--low {
+    background-color: rgb(255, 153, 51); /* Orange when low */
+}
+
+.battery-cell--empty {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Dim state when flashlight is off */
+.battery-bar-segmented--off {
+    opacity: 0.5;
+}
+
+/* Flicker effect class */
+.battery-cell--flickering {
+    opacity: 0.3;
+}
+
+/* Status indicator dot */
+.status-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    transition: background-color 0.2s ease-out;
+}
+
+.status-indicator--on {
+    background-color: rgb(51, 204, 255);
+    /* Glow effect via box-shadow not supported, use border */
+    border-width: 2px;
+    border-color: rgba(51, 204, 255, 0.5);
+}
+
+.status-indicator--off {
+    background-color: rgb(80, 80, 80);
+    border-width: 0;
+}
+
+.status-indicator--low {
+    background-color: rgb(255, 153, 51);
+    border-width: 2px;
+    border-color: rgba(255, 153, 51, 0.5);
+}
+
+.status-indicator--empty {
+    background-color: rgb(255, 51, 51);
+    border-width: 2px;
+    border-color: rgba(255, 51, 51, 0.5);
+}
+
+/* ===========================================
+ * SCREEN EFFECTS
+ * =========================================== */
+
+/* Critical health vignette overlay */
+.critical-vignette {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* Radial gradient not supported - use solid with opacity */
+    background-color: rgba(180, 30, 30, 0.0);
+    transition: background-color 0.3s ease-out;
+    pointer-events: none;
+}
+
+.critical-vignette--active {
+    background-color: rgba(180, 30, 30, 0.12);
+}
+
+/* Damage flash overlay */
+.damage-flash {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 50, 50, 0);
+    transition: background-color 0.05s ease-out;
+    pointer-events: none;
+}
+
+.damage-flash--active {
+    background-color: rgba(255, 50, 50, 0.25);
+}

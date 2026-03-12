@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a2a606288986004c974457a4e3407d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Materials/Grid4Blue6x.mat
+  uploadId: 781910

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42a478ceadea423290b4854fcae3efe, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Combat.Abilities.AbilityDefinitionSO
+  abilityId: 3
+  displayName: Heal
+  description: 
+  icon: {fileID: 0}
+  category: 1
+  paradigmFlags: 255
+  targetType: 0
+  range: 10
+  radius: 0
+  angle: 0
+  maxTargets: 1
+  requiresLineOfSight: 1
+  requiresTarget: 1
+  telegraphDuration: 0
+  castTime: 2
+  activeDuration: 0.5
+  recoveryTime: 0
+  cooldown: 15
+  globalCooldown: 1
+  tickInterval: 0
+  maxCharges: 0
+  chargeRegenTime: 10
+  costResource: 2
+  costTiming: 0
+  costAmount: 40
+  damageBase: -50
+  damageVariance: 10
+  damageType: 0
+  hitCount: 1
+  canCrit: 1
+  resolverType: 3
+  castMovement: 0
+  interruptible: 0
+  modifier0Type: 0
+  modifier0Chance: 0
+  modifier0Duration: 0
+  modifier0Intensity: 0
+  modifier1Type: 0
+  modifier1Chance: 0
+  modifier1Duration: 0
+  modifier1Intensity: 0
+  animationTrigger: 
+  castVFXTypeId: 0
+  impactVFXTypeId: 0

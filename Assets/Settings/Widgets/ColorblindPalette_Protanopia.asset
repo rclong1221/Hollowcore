@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d289802db242b4d2cb17ee0258445fdf, type: 3}
+  m_Name: ColorblindPalette_Protanopia
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Widgets.Config.ColorblindPalette
+  Mode: 2
+  HealthFull: {r: 0.2, g: 0.85, b: 0.2, a: 1}
+  HealthLow: {r: 1, g: 0.9, b: 0.2, a: 1}
+  DamageText: {r: 1, g: 0.9, b: 0.2, a: 1}
+  HealingText: {r: 0.2, g: 0.85, b: 0.2, a: 1}
+  CriticalText: {r: 1, g: 0.85, b: 0, a: 1}
+  ShieldColor: {r: 0.3, g: 0.6, b: 1, a: 1}
+  BuffTint: {r: 0.3, g: 0.8, b: 1, a: 1}
+  DebuffTint: {r: 1, g: 0.4, b: 0.4, a: 1}

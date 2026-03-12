@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ba1e023becaa9f54f8c7484bb8edc83c
+timeCreated: 1550817636
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/CrawlCapsuleColliderPositionerPreset.asset
+  uploadId: 781910

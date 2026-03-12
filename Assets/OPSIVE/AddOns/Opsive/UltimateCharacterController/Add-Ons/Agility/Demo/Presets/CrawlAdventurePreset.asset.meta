@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 879a8135f5244de4e8ec5df52b5969bb
+timeCreated: 1551597351
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/CrawlAdventurePreset.asset
+  uploadId: 781910

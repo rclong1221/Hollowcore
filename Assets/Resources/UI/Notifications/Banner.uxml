@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <!-- EPIC 18.3: Banner notification element template. -->
+    <ui:VisualElement name="notification-banner" class="notification-banner">
+        <ui:VisualElement class="notification-banner__content row align-center justify-center">
+            <ui:VisualElement name="icon" class="notification-banner__icon" />
+            <ui:Label name="title" class="notification-banner__title" />
+            <ui:Label name="body" class="notification-banner__body" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

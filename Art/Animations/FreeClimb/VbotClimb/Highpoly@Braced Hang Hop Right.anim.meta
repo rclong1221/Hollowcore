@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d64080703c7fa2f4fb6facaf2b6f531c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105187
+  packageName: Invector FreeClimb Add-on
+  packageVersion: 1.6
+  assetPath: Assets/Invector-3rdPersonController/Add-ons/FreeClimb/Animations/VbotClimb/Highpoly@Braced
+    Hang Hop Right.anim
+  uploadId: 640431

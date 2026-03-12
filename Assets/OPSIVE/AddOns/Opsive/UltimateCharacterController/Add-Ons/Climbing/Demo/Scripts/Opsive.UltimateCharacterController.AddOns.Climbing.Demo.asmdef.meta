@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3d606649426b36c4fa6921bf71c618a4
+timeCreated: 1562767796
+licenseType: Store
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248579
+  packageName: Climbing Pack for Opsive Character Controllers
+  packageVersion: 2.0.5
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Climbing/Demo/Scripts/Opsive.UltimateCharacterController.AddOns.Climbing.Demo.asmdef
+  uploadId: 781911

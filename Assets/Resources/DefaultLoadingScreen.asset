@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52308f68b00694454a6d20531040bb62, type: 3}
+  m_Name: DefaultLoadingScreen
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.SceneManagement.LoadingScreenProfileSO
+  BackgroundSprites: []
+  Tips:
+  - Stick together with your party for bonus XP!
+  - Higher difficulty means better loot drops.
+  - Use the trade system to share gear with friends.
+  - Check your map for spawn point locations.
+  - Dig deeper to find rarer ores and materials.
+  ShowProgressBar: 1
+  ProgressBarStyle: 0
+  MinDisplaySeconds: 1
+  FadeInDuration: 0.3
+  FadeOutDuration: 0.3
+  MusicClip: {fileID: 0}

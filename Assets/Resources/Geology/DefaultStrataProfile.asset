@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f6ac6a920eca4539a49f54e6c9a4995, type: 3}
+  m_Name: DefaultStrataProfile
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Geology.StrataProfile
+  Layers:
+  - MaterialID: 2
+    MinDepth: 0
+    MaxDepth: 5
+    BlendWidth: 2
+    NoiseInfluence: 0.1
+    DisplayName: Topsoil
+    DebugColor: {r: 0.4, g: 0.3, b: 0.2, a: 1}
+  - MaterialID: 1
+    MinDepth: 5
+    MaxDepth: 50
+    BlendWidth: 3
+    NoiseInfluence: 0.2
+    DisplayName: Stone
+    DebugColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - MaterialID: 10
+    MinDepth: 50
+    MaxDepth: 150
+    BlendWidth: 5
+    NoiseInfluence: 0.3
+    DisplayName: Granite
+    DebugColor: {r: 0.6, g: 0.5, b: 0.5, a: 1}
+  - MaterialID: 11
+    MinDepth: 150
+    MaxDepth: 999
+    BlendWidth: 10
+    NoiseInfluence: 0.4
+    DisplayName: Basalt
+    DebugColor: {r: 0.2, g: 0.2, b: 0.25, a: 1}
+  NoiseSeed: 42
+  NoiseScale: 0.05

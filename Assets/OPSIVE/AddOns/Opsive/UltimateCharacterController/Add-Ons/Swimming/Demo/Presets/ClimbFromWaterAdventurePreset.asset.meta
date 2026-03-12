@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e66e4a1852338834680b0a90c89c4756
+timeCreated: 1573263471
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/ClimbFromWaterAdventurePreset.asset
+  uploadId: 781912

@@ -1,0 +1,82 @@
+using UnityEngine;
+using UnityEditor;
+using System.Collections.Generic;
+
+namespace DIG.Editor.AnimationWorkstation
+{
+    public class AnimationWorkstationWindow : EditorWindow
+    {
+        private int _selectedTab = 0;
+        private string[] _tabs = new string[] { "Fixers", "Copiers", "Events", "Analysis", "Debug" };
+
+        // Modules
+        private Dictionary<string, IWorkstationModule> _modules;
+        
+        [MenuItem("DIG/Animation Workstation")]
+        public static void ShowWindow()
+        {
+            var window = GetWindow<AnimationWorkstationWindow>("Animation Workstation");
+            window.minSize = new Vector2(500, 400);
+        }
+
+        private void OnEnable()
+        {
+            InitializeModules();
+        }
+
+        private void InitializeModules()
+        {
+            _modules = new Dictionary<string, IWorkstationModule>();
+
+            // We will register modules here as we create them
+            _modules.Add("Fixers", new AnimationFixerModule());
+            _modules.Add("Copiers", new AnimationCopierModule());
+            _modules.Add("Events", new AnimationEventModule());
+            _modules.Add("Analysis", new AnimationAnalyzerModule());
+        }
+
+        private void OnGUI()
+        {
+            DrawHeader();
+            
+            EditorGUILayout.Space();
+            
+            _selectedTab = GUILayout.Toolbar(_selectedTab, _tabs);
+            
+            EditorGUILayout.Space();
+            
+            string currentTabName = _tabs[_selectedTab];
+            
+            if (_modules != null && _modules.ContainsKey(currentTabName))
+            {
+                _modules[currentTabName].OnGUI();
+            }
+            else
+            {
+                DrawPlaceholder(currentTabName);
+            }
+        }
+
+        private void DrawHeader()
+        {
+            EditorGUILayout.BeginHorizontal(EditorStyles.toolbar);
+            GUILayout.Label("DIG Animation Workstation", EditorStyles.boldLabel);
+            GUILayout.FlexibleSpace();
+            if (GUILayout.Button("Reload", EditorStyles.toolbarButton))
+            {
+                InitializeModules();
+            }
+            EditorGUILayout.EndHorizontal();
+        }
+
+        private void DrawPlaceholder(string tabName)
+        {
+            EditorGUILayout.HelpBox($"The module '{tabName}' has not been implemented yet.", MessageType.Info);
+        }
+    }
+
+    public interface IWorkstationModule
+    {
+        void OnGUI();
+    }
+}

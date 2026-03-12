@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d801d1538a54a4fb0baf4e2e252d2598, type: 3}
+  m_Name: OffHand
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Definitions.EquipmentSlotDefinition
+  SlotID: OffHand
+  DisplayName: Off Hand
+  SlotIndex: 1
+  AttachmentBone: 17
+  FallbackAttachPath: 
+  PrimaryBinding: 1-9
+  RequiredModifier: 1
+  UsesNumericKeys: 0
+  AllowedCategories: []
+  AnimatorParamPrefix: Slot1
+  RenderMode: 0
+  SuppressionRules:
+  - WatchSlotID: MainHand
+    Condition: 1
+    ConditionValue: 
+    Action: 0
+    OverrideStateIndex: 0
+  Priority: 5

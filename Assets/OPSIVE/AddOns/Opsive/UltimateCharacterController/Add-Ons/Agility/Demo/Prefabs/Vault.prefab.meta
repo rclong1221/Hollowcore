@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ff7ad2bbb610f4b428745b3fdb0e34be
+timeCreated: 1544736348
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Prefabs/Vault.prefab
+  uploadId: 781910

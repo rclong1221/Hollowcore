@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f27a1cafa243b9246aa49c3e7e337743
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Materials/BlueAgility.mat
+  uploadId: 781910

@@ -1,0 +1,25 @@
+{
+    "name": "DIG.Interaction",
+    "rootNamespace": "DIG.Interaction",
+    "references": [
+        "DIG.Shared",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Mathematics",
+        "Unity.NetCode",
+        "Unity.Physics",
+        "Unity.Transforms",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

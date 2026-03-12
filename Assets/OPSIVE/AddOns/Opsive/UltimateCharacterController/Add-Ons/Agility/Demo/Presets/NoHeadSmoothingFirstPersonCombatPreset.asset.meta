@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df1887dacb9718d4cab36fee125014a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/NoHeadSmoothingFirstPersonCombatPreset.asset
+  uploadId: 781910

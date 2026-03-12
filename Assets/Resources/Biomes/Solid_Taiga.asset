@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c29881e80d14e79b79aee0e2cb1af5, type: 3}
+  m_Name: Solid_Taiga
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Biomes.BiomeDefinition
+  BiomeID: 22
+  BiomeName: Solid_Taiga
+  DebugColor: {r: 1, g: 1, b: 1, a: 1}
+  MinTemperature: -1
+  MaxTemperature: 0
+  MinHumidity: 0
+  MaxHumidity: 1
+  SurfaceMaterial: {fileID: 0}
+  SubsurfaceMaterial: {fileID: 0}
+  WallMaterial: {fileID: 0}
+  OreSpawnMultiplier: 1
+  FluidOverride: {fileID: 0}
+  AmbientLight: {r: 0.1, g: 0.1, b: 0.15, a: 1}
+  FogColor: {r: 0.05, g: 0.05, b: 0.1, a: 1}
+  FogDensity: 0.02
+  AmbienceLoop: {fileID: 0}

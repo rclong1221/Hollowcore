@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf04a7f5447524176b4960d3cf067c8f, type: 3}
+  m_Name: Mat_Tin
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Core.VoxelMaterialDefinition
+  MaterialID: 21
+  MaterialName: Tin
+  Hardness: 1.5
+  IsMineable: 1
+  LootPrefab: {fileID: 3126606082246325845, guid: f09c077b886f247b0b5129253ba6cb5f, type: 3}
+  MinDropCount: 1
+  MaxDropCount: 3
+  DropChance: 1
+  VisualMaterial: {fileID: 0}
+  DebugColor: {r: 0.7, g: 0.7, b: 0.75, a: 1}
+  TextureArrayIndex: 21

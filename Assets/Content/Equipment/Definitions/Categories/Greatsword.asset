@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d91f326303344d1a93482dcf40db89, type: 3}
+  m_Name: Greatsword
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Definitions.WeaponCategoryDefinition
+  CategoryID: Greatsword
+  DisplayName: Greatsword
+  ParentCategory: {fileID: 11400000, guid: c1b73ea0ba1394ea9b472b23b82ea5d8, type: 2}
+  DefaultMovementSetID: 1
+  AnimatorSubstateMachine: Sword
+  GripType: 1
+  CanDualWield: 0
+  AllowedOffHandCategories: []
+  UseStyle: 1
+  DefaultComboCount: 3
+  DefaultUseDuration: 0.8
+  LockMovementOnUse: 1
+  DefaultEquipDuration: 0.4
+  DefaultUnequipDuration: 0.4
+  InputProfile: {fileID: 0}
+  ResolverType: 0
+  DamageFormula: {fileID: 0}
+  CanCrit: 1
+  BaseDamageRange: {x: 25, y: 40}
+  CustomData: []
+

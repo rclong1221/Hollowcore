@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f3f2b8f35d3c59341b22755edb46ea3f
+timeCreated: 1544667598
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/AirborneHangPreset.asset
+  uploadId: 781910

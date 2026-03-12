@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &589749917615925347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364806267381885219, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8366821281719697815, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      propertyPath: m_Name
+      value: KnifeDrop_ECS
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 475146811574913061, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+    - {fileID: 8471136211611826719, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8366821281719697815, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4786349748911012217}
+    - targetCorrespondingSourceObject: {fileID: 8366821281719697815, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6783672413972821838}
+    - targetCorrespondingSourceObject: {fileID: 8366821281719697815, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5188975839540663660}
+  m_SourcePrefab: {fileID: 100100000, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+--- !u!1 &8949740755807955444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8366821281719697815, guid: 78b5af6efd3f4fa4fa3a732957b888d7, type: 3}
+  m_PrefabInstance: {fileID: 589749917615925347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4786349748911012217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8949740755807955444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfaa20f795ce343e5a4d85c8c4aac81a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Weapons.Authoring.WeaponAuthoring
+  Type: 2
+  AnimatorItemID: 23
+  ClipSize: 30
+  StartingAmmo: 30
+  ReserveAmmo: 90
+  FireRate: 10
+  Damage: 20
+  Range: 100
+  SpreadAngle: 2
+  RecoilAmount: 5
+  RecoilRecovery: 10
+  ReloadTime: 2
+  IsAutomatic: 1
+  UseHitscan: 1
+  MeleeDamage: 50
+  MeleeRange: 2
+  AttackSpeed: 2
+  HitboxActiveStart: 0.2
+  HitboxActiveEnd: 0.6
+  ComboCount: 3
+  ComboWindow: 0.5
+  HitboxOffset: {x: 0, y: 1, z: 1}
+  HitboxSize: {x: 1, y: 1, z: 2}
+  MinThrowForce: 10
+  MaxThrowForce: 30
+  ChargeTime: 1
+  ThrowArc: 15
+  BlockDamageReduction: 0.7
+  ParryWindow: 0.15
+  BlockAngle: 120
+  StaminaCostPerBlock: 10
+  BowDrawTime: 1
+  BowBaseDamage: 20
+  BowMaxDamage: 80
+  BowProjectileSpeed: 50
+  BowProjectilePrefabIndex: 0
+  EnableAimAssist: 0
+  AimAssistStrength: 0.3
+  AimAssistRange: 50
+  AimAssistConeAngle: 20
+  AimAssistMagnetism: 0.5
+--- !u!114 &-6783672413972821838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8949740755807955444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57dabc098c773441993487e4eb58c086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Authoring.ItemAuthoring
+  ItemTypeId: 3464
+  DisplayName: KnifeDrop
+  Category: 1
+  EquipDuration: 0.5
+  UnequipDuration: 0.3
+  IsStackable: 0
+  MaxStack: 1
+--- !u!114 &-5188975839540663660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8949740755807955444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb8767511c98848b28ea68d2c5fe4859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Authoring.ItemAnimationConfigAuthoring
+  AnimatorItemID: 23
+  MovementSetID: 1
+  WeaponType: 2
+  ComboCount: 3
+  UseDuration: 0.5
+  IsChanneled: 0
+  RequireAimToFire: 0
+  LockMovementDuringUse: 0
+  CancelUseOnMove: 0

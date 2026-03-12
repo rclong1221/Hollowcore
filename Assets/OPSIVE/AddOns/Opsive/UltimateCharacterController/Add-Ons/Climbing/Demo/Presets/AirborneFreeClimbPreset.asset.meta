@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61b4de577b22d88418e0b3278dabf737
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248579
+  packageName: Climbing Pack for Opsive Character Controllers
+  packageVersion: 2.0.5
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Climbing/Demo/Presets/AirborneFreeClimbPreset.asset
+  uploadId: 781911

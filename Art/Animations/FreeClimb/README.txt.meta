@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48a03eb5d2eef804d9c66f6538728595
+timeCreated: 1510263223
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105187
+  packageName: Invector FreeClimb Add-on
+  packageVersion: 1.6
+  assetPath: Assets/Invector-3rdPersonController/Add-ons/FreeClimb/Animations/README.txt
+  uploadId: 640431

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BatteryBar
+  m_Shader: {fileID: 4800000, guid: f7d4f04d24ca543bb8abf3be3a98a848, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BorderWidth: 0.015
+    - _CellCount: 10
+    - _CellGap: 0.015
+    - _CornerRadius: 0.1
+    - _FillAmount: 1
+    - _FlickerSpeed: 8
+    - _GlowIntensity: 0.6
+    - _IsFlickering: 0
+    - _IsLowBattery: 0
+    - _IsOn: 1
+    m_Colors:
+    - _BackgroundColor: {r: 0.07999996, g: 0.07999996, b: 0.09999997, a: 0.9}
+    - _BorderColor: {r: 0.29999998, g: 0.29999998, b: 0.34999996, a: 1}
+    - _CellGapColor: {r: 0.049999982, g: 0.049999982, b: 0.06999998, a: 1}
+    - _ColorFull: {r: 0.39999998, g: 0.8, b: 1, a: 1}
+    - _ColorLow: {r: 0.9, g: 0.39999998, b: 0.09999997, a: 1}
+    - _ColorMid: {r: 0.6, g: 0.6, b: 0.19999996, a: 1}
+    - _ColorOff: {r: 0.19999996, g: 0.19999996, b: 0.24999997, a: 0.6}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

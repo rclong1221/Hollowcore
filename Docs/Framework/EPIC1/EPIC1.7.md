@@ -1,0 +1,51 @@
+### Epic 1.7: Character Controller & Physics
+**Priority**: MEDIUM  
+**Goal**: Proper collision detection, slope handling, step climbing
+
+**Tasks**:
+- [X] Define `CharacterControllerSettings` component:
+  - [X] `Radius` (0.4m), `Height` (2m standing, adjusts with stance)
+  - [X] `SkinWidth` (0.02m), `MaxSlopeAngle` (45°), `StepHeight` (0.3m)
+  - [X] `PushRigidbodies` (bool)
+- [X] Create `Player/Systems/CharacterControllerSystem.cs`
+- [X] Implement custom collision resolution (hybrid): basic capsule casts and contact checks added; further edge-case polishing planned.
+- [X] Implement step climbing (basic): step-up with clearance test and smoothing implemented; improved head/foot probing pending.
+- [X] Implement slope handling (basic): slide projection and slide/friction parameters added; tuning pending.
+- [X] Implement rigidbody pushing (basic): mass-scaled push impulse added; smoothing & force-mode tuning pending.
+- [ ] Test player doesn't get stuck in corners (QA pending)
+- [ ] Test smooth movement on stairs (QA pending)
+ - [X] `CharacterControllerAuthoring` + Baker added to bake `CharacterControllerSettings` into ECS entities (hybrid workflow).
+ - [X] `CharacterControllerSettings` IComponentData & authoring created.
+ - [X] `KinematicCharacterController` MonoBehaviour implemented (capsule-probe movement, head/foot probes, step-climb, slope handling, rigidbody push).
+ - [X] Input decoupling infrastructure implemented:
+   - [X] `PlayerInputState` runtime shared state
+   - [X] `PlayerInputReader` MonoBehaviour
+   - [X] `PlayerInputComponent` hybrid ECS component
+   - [X] `PlayerInputAuthoring` + Baker
+   - [X] `PlayerInputWriterSystem` (copies runtime input into ECS)
+   - [X] Global `PlayerInput` struct added for NetCode serializers
+ - [X] Source-gen & compile issues fixed (moved `using`s, removed duplicate types, replaced capture-style Entities.ForEach, renamed `Player` → `PlayerTag`).
+ - [X] Wire `KinematicCharacterController` to decoupled input (reads `PlayerInputState` directly).
+ - [X] Step smoothing implemented (inspector `stepSmoothTime`, coroutine-based smooth step up/down).
+ - [X] Inspector tuning presets added (`Default`, `Tight`, `Loose`).
+ - [X] Capsule-probe movement and head/foot probes for improved step climbing implemented.
+ - [X] Basic rigidbody push behavior implemented (configurable `pushForce`, respects rigidbody presence).
+ - [X] Robust contact resolution and further improved step-climb probes (foot/head) — follow-up.
+ - [X] Push smoothing and force-mode tuning for rigidbody interaction — follow-up.
+  - [X] DOTS port and jobification (added ECS runtime and parallel compute/resolve path):
+    - [X] `CharacterControllerSystem` DOTS implementation that reads `PlayerInputComponent` and `CharacterControllerSettings`.
+    - [X] Parallel compute stage (`ComputeDispJob`) that enqueues `MoveRequest`s.
+    - [X] Parallel resolve stage (`ResolvePhysicsJob`) using job-safe radial probe raycasts to approximate capsule sweeps.
+    - [X] Push collection via `NativeQueue<PushRequest>.ParallelWriter` and mass-scaled, smoothed application to physics bodies.
+  - [X] Capsule collider caching and tooling:
+    - [X] Bounded LRU cache for `BlobAssetReference<Collider>` to avoid per-frame collider creation.
+    - [X] `CapsuleCacheSettings` ScriptableObject for capacity tuning and prewarm lists.
+    - [X] Prewarm helper and API: `PrewarmCapsuleCache()`, `SetCapsuleCacheCapacity(int)`.
+    - [X] Cache metrics (hit/miss counters) and `GetCacheStats()` accessor.
+    - [X] Reset/management APIs: `ResetCacheStats()`, `ClearCapsuleCache(bool)`, `ResetCache(bool)`.
+  - [X] Debug UI and tooling:
+    - [X] `Assets/Editor/CacheStatsWindow.cs` — EditorWindow showing hits/misses/hit-rate and buttons to Reset/Clear/Reset+Prewarm.
+    - [X] `Assets/Scripts/Debug/CacheStatsDisplay.cs` — runtime OnGUI overlay for Game view with same buttons for quick testing.
+ - [ ] Create QA test scene with ramps, stairs, and movable boxes; run manual tests and tuning.
+ - [X] Port character controller to DOTS / `Unity.Physics`.
+ - [ ] Create QA test scene with ramps, stairs, and movable boxes; run manual tests and tuning.

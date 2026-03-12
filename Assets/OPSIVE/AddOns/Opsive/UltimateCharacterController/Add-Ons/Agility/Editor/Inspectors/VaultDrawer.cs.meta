@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e089fcce5ed53e84ab7db668982dad68
+timeCreated: 1550565896
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Editor/Inspectors/VaultDrawer.cs
+  uploadId: 781910

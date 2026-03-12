@@ -1,0 +1,84 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" 
+         xmlns:uie="UnityEditor.UIElements" 
+         xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         engine="UnityEngine.UIElements" 
+         editor="UnityEditor.UIElements" 
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" 
+         editor-extension-mode="False">
+    
+    <!-- 
+    FlashlightHUD.uxml - AAA Edition
+    EPIC 15.8: MVVM Flashlight Battery/Status Display
+    
+    Features:
+    - Segmented battery cells (like real battery indicator)
+    - Status indicator dot with glow
+    - Color transitions: Cyan → Orange → Red
+    - Dim state when off
+    -->
+    
+    <Style src="project://database/Assets/UI/Styles/Variables.uss" />
+    <Style src="project://database/Assets/UI/Styles/Components.uss" />
+    
+    <!-- Main container - positioned top-right by default -->
+    <ui:VisualElement name="flashlight-container" class="hud-top-right" 
+                      style="width: 140px;">
+        
+        <!-- Glass panel background -->
+        <ui:VisualElement name="flashlight-panel" class="panel-glass" 
+                          style="padding: 10px; border-radius: 8px;">
+            
+            <!-- Header row: Status indicator + Label + State -->
+            <ui:VisualElement style="flex-direction: row; 
+                                     align-items: center; 
+                                     justify-content: space-between;
+                                     margin-bottom: 8px;">
+                
+                <ui:VisualElement style="flex-direction: row; align-items: center;">
+                    <!-- Status indicator dot -->
+                    <ui:VisualElement name="status-indicator" class="status-indicator status-indicator--off" />
+                    
+                    <!-- Label -->
+                    <ui:Label text="LIGHT" 
+                              style="font-size: 10px; 
+                                     letter-spacing: 1px;
+                                     color: rgba(255,255,255,0.6);
+                                     -unity-font-style: bold;" />
+                </ui:VisualElement>
+                
+                <!-- Status text (ON/OFF/LOW) -->
+                <ui:Label name="status-text" 
+                          text="OFF" 
+                          style="color: rgb(100, 100, 100); 
+                                 font-size: 11px; 
+                                 -unity-font-style: bold;" />
+            </ui:VisualElement>
+            
+            <!-- Segmented Battery Bar -->
+            <ui:VisualElement name="battery-bar" class="battery-bar-segmented">
+                <!-- 10 battery cells -->
+                <ui:VisualElement name="cell-0" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-1" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-2" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-3" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-4" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-5" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-6" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-7" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-8" class="battery-cell battery-cell--empty" />
+                <ui:VisualElement name="cell-9" class="battery-cell battery-cell--empty" />
+            </ui:VisualElement>
+            
+            <!-- Battery percentage text -->
+            <ui:Label name="battery-percent-text" 
+                      text="100%" 
+                      style="font-size: 10px; 
+                             color: rgba(255,255,255,0.5);
+                             -unity-text-align: middle-center;
+                             margin-top: 4px;" />
+            
+        </ui:VisualElement>
+        
+    </ui:VisualElement>
+    
+</ui:UXML>

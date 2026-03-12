@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f0b071b844c204c7ca15dbf2b88d6647
+timeCreated: 1514928893
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animator/Scene/InteractButton.controller
+  uploadId: 836594

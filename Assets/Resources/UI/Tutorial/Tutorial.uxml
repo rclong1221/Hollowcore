@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <!-- EPIC 18.4: Tutorial overlay template. -->
+
+    <!-- Spotlight mask: 4 rectangles forming a cutout around the target element -->
+    <ui:VisualElement name="spotlight-container" class="tutorial-spotlight" picking-mode="Ignore" style="display: none;">
+        <ui:VisualElement name="spotlight-top" class="tutorial-spotlight__mask" />
+        <ui:VisualElement name="spotlight-bottom" class="tutorial-spotlight__mask" />
+        <ui:VisualElement name="spotlight-left" class="tutorial-spotlight__mask" />
+        <ui:VisualElement name="spotlight-right" class="tutorial-spotlight__mask" />
+    </ui:VisualElement>
+
+    <!-- Tooltip bubble -->
+    <ui:VisualElement name="tooltip-container" class="tutorial-tooltip" style="display: none;">
+        <ui:VisualElement class="tutorial-tooltip__arrow" />
+        <ui:VisualElement class="tutorial-tooltip__bubble">
+            <ui:Label name="tooltip-title" class="tutorial-tooltip__title" />
+            <ui:Label name="tooltip-message" class="tutorial-tooltip__message" />
+            <ui:Button name="tooltip-continue-btn" text="Got it" class="tutorial-tooltip__continue-btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- Popup panel (centered modal) -->
+    <ui:VisualElement name="popup-container" class="tutorial-popup" style="display: none;">
+        <ui:VisualElement class="tutorial-popup__backdrop" />
+        <ui:VisualElement class="tutorial-popup__panel">
+            <ui:Label name="popup-title" class="tutorial-popup__title" />
+            <ui:Label name="popup-message" class="tutorial-popup__message" />
+            <ui:Button name="popup-continue-btn" text="Continue" class="tutorial-popup__continue-btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+    <!-- World marker (screen-space positioned) -->
+    <ui:VisualElement name="world-marker-container" class="tutorial-world-marker" picking-mode="Ignore" style="display: none;">
+        <ui:VisualElement name="marker-arrow" class="tutorial-world-marker__arrow" />
+        <ui:Label name="marker-distance" class="tutorial-world-marker__distance" />
+    </ui:VisualElement>
+
+    <!-- Skip button (corner) -->
+    <ui:Button name="skip-btn" text="Skip Tutorial" class="tutorial-skip-btn" style="display: none;" />
+
+    <!-- Step counter -->
+    <ui:Label name="step-counter" class="tutorial-step-counter" style="display: none;" />
+</ui:UXML>

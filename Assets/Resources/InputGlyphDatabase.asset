@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e776122ce49464abcf07bbca2e6af8, type: 3}
+  m_Name: InputGlyphDatabase
+  m_EditorClassIdentifier: DIG.UI::DIG.UI.Core.Input.InputGlyphDatabase
+  _entries:
+  - ActionName: Jump
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Space]'
+    XboxIcon: {fileID: 0}
+    XboxText: (A)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\xD7)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (A)
+  - ActionName: Interact
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[F]'
+    XboxIcon: {fileID: 0}
+    XboxText: (X)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25A1)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (X)
+  - ActionName: Fire
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[LMB]'
+    XboxIcon: {fileID: 0}
+    XboxText: (RT)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: (RT)
+    SwitchIcon: {fileID: 0}
+    SwitchText: (RT)
+  - ActionName: Aim
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[RMB]'
+    XboxIcon: {fileID: 0}
+    XboxText: (LT)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: (LT)
+    SwitchIcon: {fileID: 0}
+    SwitchText: (LT)
+  - ActionName: Reload
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[R]'
+    XboxIcon: {fileID: 0}
+    XboxText: (X)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25A1)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (X)
+  - ActionName: Dodge
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Shift]'
+    XboxIcon: {fileID: 0}
+    XboxText: (B)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25CB)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (B)
+  - ActionName: Sprint
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Shift]'
+    XboxIcon: {fileID: 0}
+    XboxText: (LS)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: (LS)
+    SwitchIcon: {fileID: 0}
+    SwitchText: (LS)
+  - ActionName: Crouch
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[C]'
+    XboxIcon: {fileID: 0}
+    XboxText: (B)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25CB)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (B)
+  - ActionName: Use
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[E]'
+    XboxIcon: {fileID: 0}
+    XboxText: (Y)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25B3)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (Y)
+  - ActionName: Inventory
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[I]'
+    XboxIcon: {fileID: 0}
+    XboxText: (Back)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25CBack)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (Back)
+  - ActionName: Map
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[M]'
+    XboxIcon: {fileID: 0}
+    XboxText: (View)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: (View)
+    SwitchIcon: {fileID: 0}
+    SwitchText: (View)
+  - ActionName: Pause
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Esc]'
+    XboxIcon: {fileID: 0}
+    XboxText: (Start)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: (Start)
+    SwitchIcon: {fileID: 0}
+    SwitchText: (Start)
+  - ActionName: Confirm
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Enter]'
+    XboxIcon: {fileID: 0}
+    XboxText: (A)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\xD7)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (A)
+  - ActionName: Cancel
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Esc]'
+    XboxIcon: {fileID: 0}
+    XboxText: (B)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(\u25CB)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (B)
+  - ActionName: NextWeapon
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Q]'
+    XboxIcon: {fileID: 0}
+    XboxText: (RB)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(R\u25CB)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (RB)
+  - ActionName: PrevWeapon
+    KeyboardIcon: {fileID: 0}
+    KeyboardText: '[Tab]'
+    XboxIcon: {fileID: 0}
+    XboxText: (LB)
+    PlayStationIcon: {fileID: 0}
+    PlayStationText: "(L\u25CB)"
+    SwitchIcon: {fileID: 0}
+    SwitchText: (LB)
+  _fallbackIcon: {fileID: 0}
+  _fallbackText: '[?]'

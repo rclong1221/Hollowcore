@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 735d6b9841289b445a0dfdd21503e366
+timeCreated: 1553039759
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/LedgeStrafeCapsuleColliderPositionerPreset.asset
+  uploadId: 781910

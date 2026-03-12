@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b1873acd19f4e27a40336be75b7528, type: 3}
+  m_Name: FluidRegistry
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Fluids.FluidRegistry
+  Fluids:
+  - {fileID: 11400000, guid: 96c2cbb82656e4bda9054163e41d66be, type: 2}
+  - {fileID: 11400000, guid: fe0e283b07c864d9aae4674996a728e8, type: 2}
+  - {fileID: 11400000, guid: 7a79746860c884636ab2aa62694317ac, type: 2}
+  - {fileID: 11400000, guid: 27ade6b97cbb04fbd818cd7d0aedd72c, type: 2}
+  - {fileID: 11400000, guid: a119c0bb8b56748b4b1ccd88f6ba8119, type: 2}
+  GlobalWaterLevel: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a81e2f086530c842afd2d2b57a08dd0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Animator/SwimmingFirstPersonArmsDemo.controller
+  uploadId: 781912
