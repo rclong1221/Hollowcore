@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c25b62a0aa3008847b46638178a94157
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Prefabs/BoxingJoe.prefab
+  uploadId: 781910

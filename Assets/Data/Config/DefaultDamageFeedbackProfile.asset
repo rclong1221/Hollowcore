@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3214a0810e9eb4808ba4ac496354ec8b, type: 3}
+  m_Name: DefaultDamageFeedbackProfile
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Combat.UI.Config.DamageFeedbackProfile
+  NormalHit:
+    Prefab: {fileID: 802397317802888399, guid: 8446c5ab14b734d2d9fcbf9966f2f63f, type: 3}
+    ScaleMultiplier: 1
+    ColorOverride: {r: 1, g: 1, b: 1, a: 1}
+    UseColorOverride: 0
+  CriticalHit:
+    Prefab: {fileID: 6832898654820942164, guid: 7e8191c98e432494cbf0fc02f403c84d, type: 3}
+    ScaleMultiplier: 1.5
+    ColorOverride: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    UseColorOverride: 1
+  GrazeHit:
+    Prefab: {fileID: 4430116115408912982, guid: 9300ca7e169eb4fe5a9e78e5ce06f25c, type: 3}
+    ScaleMultiplier: 0.8
+    ColorOverride: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    UseColorOverride: 0
+  MissHit:
+    Prefab: {fileID: 3140274765752945072, guid: aad13f68c7ef6454c9e948d21dd7bf99, type: 3}
+    ScaleMultiplier: 0.9
+    ColorOverride: {r: 0.5, g: 0.5, b: 0.5, a: 0.7}
+    UseColorOverride: 1
+  ExecuteHit:
+    Prefab: {fileID: 5477684782026037189, guid: 3ac23412711fa4d489a82bd303e93bf9, type: 3}
+    ScaleMultiplier: 1.8
+    ColorOverride: {r: 1, g: 0.3, b: 0.1, a: 1}
+    UseColorOverride: 1
+  BlockedHit:
+    Prefab: {fileID: 4874215403523800101, guid: 84b00c7837d9346b8aef93fff6dbd337, type: 3}
+    ScaleMultiplier: 1.1
+    ColorOverride: {r: 0.3, g: 0.5, b: 1, a: 1}
+    UseColorOverride: 1
+  ParriedHit:
+    Prefab: {fileID: 2777366574325991097, guid: 8a9cfbdddb722474c860b63b7f7aebb9, type: 3}
+    ScaleMultiplier: 1.2
+    ColorOverride: {r: 1, g: 0.85, b: 0.2, a: 1}
+    UseColorOverride: 1
+  ImmuneHit:
+    Prefab: {fileID: 4975227794183344289, guid: 571e2798189af40a18b9c4c37529ba37, type: 3}
+    ScaleMultiplier: 1
+    ColorOverride: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    UseColorOverride: 1
+  HealPrefab: {fileID: 1577324057271888442, guid: 768383a188257458486ee370dcd53695, type: 3}
+  AbsorbPrefab: {fileID: 5349247530631773822, guid: 8ab256cb99161467693b1239977d756e, type: 3}
+  DOTPrefab: {fileID: 3646739965404367509, guid: 5bc17aba123af478fa1cbe97bc89aecb, type: 3}
+  DamageTypes:
+  - Type: 0
+    DisplayName: Physical
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    SizeMultiplier: 1
+  - Type: 1
+    DisplayName: Fire
+    Color: {r: 1, g: 0.4, b: 0.1, a: 1}
+    SizeMultiplier: 1.05
+  - Type: 2
+    DisplayName: Ice
+    Color: {r: 0.3, g: 0.7, b: 1, a: 1}
+    SizeMultiplier: 1
+  - Type: 3
+    DisplayName: Lightning
+    Color: {r: 1, g: 1, b: 0.3, a: 1}
+    SizeMultiplier: 1.1
+  - Type: 4
+    DisplayName: Poison
+    Color: {r: 0.4, g: 0.9, b: 0.2, a: 1}
+    SizeMultiplier: 0.95
+  - Type: 5
+    DisplayName: Holy
+    Color: {r: 1, g: 1, b: 0.7, a: 1}
+    SizeMultiplier: 1.05
+  - Type: 6
+    DisplayName: Shadow
+    Color: {r: 0.5, g: 0.2, b: 0.7, a: 1}
+    SizeMultiplier: 1
+  - Type: 7
+    DisplayName: Arcane
+    Color: {r: 0.7, g: 0.3, b: 1, a: 1}
+    SizeMultiplier: 1.05
+  HeadshotText:
+    Prefab: {fileID: 0}
+    ScaleMultiplier: 1.3
+    ColorOverride: {r: 1, g: 0.8, b: 0, a: 1}
+    UseColorOverride: 1
+  BackstabText:
+    Prefab: {fileID: 0}
+    ScaleMultiplier: 1.2
+    ColorOverride: {r: 0.8, g: 0.2, b: 0.8, a: 1}
+    UseColorOverride: 1
+  CullDistance: 50
+  MaxActiveNumbers: 50
+  DefaultVisibility: 0
+  AllowPlayerVisibilityOverride: 1

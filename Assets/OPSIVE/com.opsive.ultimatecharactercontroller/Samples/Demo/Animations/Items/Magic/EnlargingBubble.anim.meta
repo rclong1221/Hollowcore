@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31ada8294bb7b439ea1353266b86498f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animations/Items/Magic/EnlargingBubble.anim
+  uploadId: 836594

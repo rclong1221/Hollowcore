@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0563bac986784abeb16c8bfa2e3babd, type: 3}
+  m_Name: WidgetProfile_Shooter
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Widgets.Config.ParadigmWidgetProfile
+  Paradigm: 0
+  MaxActiveWidgets: 40
+  LODDistanceMultiplier: 1
+  WidgetScaleMultiplier: 1
+  DistanceFalloff: 3
+  HealthBarEnabled: 1
+  NameplateEnabled: 0
+  CastBarEnabled: 1
+  BuffRowEnabled: 0
+  LootLabelEnabled: 1
+  QuestMarkerEnabled: 0
+  OffScreenEnabled: 1
+  ShowHealthBarOnPlayer: 0
+  Billboard: 0
+  Style: 0
+  Complexity: 2
+  DamageNumberScale: 1
+  HealthBarYOffset: 2.5
+  AccessibilityFontScale: 1
+  StackingEnabled: 1
+  GroupingEnabled: 0
+  GroupingThreshold: 4
+  BuffRowMaxIcons: 5
+  BossPlatePosition: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e7a3829cdbe9ccc47824349f7bfd2af9
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Editor/Opsive.UltimateCharacterController.AddOns.Agility.Editor.asmdef
+  uploadId: 781910

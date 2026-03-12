@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 71b0b88d0cde7ea49ac3763fc6f42858
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105187
+  packageName: Invector FreeClimb Add-on
+  packageVersion: 1.6
+  assetPath: Assets/Invector-3rdPersonController/Add-ons/FreeClimb/Animations/VbotClimb/ClimbMoveLeft.anim
+  uploadId: 640431

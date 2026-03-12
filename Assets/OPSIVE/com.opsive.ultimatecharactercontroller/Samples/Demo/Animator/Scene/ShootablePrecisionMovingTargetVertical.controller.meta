@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee55c83d637b24bfa810ce8f5d17df72
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animator/Scene/ShootablePrecisionMovingTargetVertical.controller
+  uploadId: 836594

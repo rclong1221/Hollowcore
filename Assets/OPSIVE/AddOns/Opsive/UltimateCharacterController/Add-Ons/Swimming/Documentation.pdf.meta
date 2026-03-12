@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 24bb1d3b1450ac840a64e42cc5e240cd
+timeCreated: 1574010679
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Documentation.pdf
+  uploadId: 781912

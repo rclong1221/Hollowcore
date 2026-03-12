@@ -1,0 +1,36 @@
+Ver 2.3
+
+Modified Motions
+Base Move
+The entire animation has been revised.
+The rotation part of Unreal Root Bone has been removed and modified to default.
+
+Added Motions
+Base Move 352
+Crouch 34 - Base 8, Change 8, Start 8, Stop 8, Transition 2
+Stand_Idle - Idle_Turn 18
+Run 140 - Base 20, Change 36, LR90_Shuffle 8, Start 28, Stop 20, Turn 14, Other_Run_F 14
+Sprint 34 - Base 6, Start 12, Stop 6, Turn 10
+Walk 126 - Base 20, Change 36, LR90_Shuffle 8, Start 28, Stop 20, Turn 10, Other_Walk_F 4
+
+The existing movement is type A, and the added type B is made to suit holding a weapon or in combat situations.
+
+------------------------------------------------------------
+
+Ver 2.2
+
+Added Motions
+Easy FBX Anim Modifier 1.2 - Weapon Bone Retargeter
+To retarget the Weapon Bone, you can use the features included in the Easy FBX Anim Modifier asset. 
+However, if you want to retarget precise motion, we recommend using related software or assets.
+
+ActionDeadPose-1.4 - Door Gate 4,Item 7,StartPointBehavior 2
+TwoHandBase-1.5 - Skill 16
+
+Modified Motions
+Actions, Dead Pose,  Two Hand Base (Skills) - The entire animation has been revised. The rotation part of Unreal Root Bone has been removed and modified to default.
+
+
+I plan to add weapon bones to all animations.
+Additionally, the rotation part of the Unreal root bone will be removed and changed to default.
+Since I can't update them all at once, I'll do it in stages.

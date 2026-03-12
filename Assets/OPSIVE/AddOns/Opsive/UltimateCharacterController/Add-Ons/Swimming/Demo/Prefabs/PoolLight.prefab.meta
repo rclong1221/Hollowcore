@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f702c6d7aa4d39e408e025df79b862fa
+timeCreated: 1573840740
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Prefabs/PoolLight.prefab
+  uploadId: 781912

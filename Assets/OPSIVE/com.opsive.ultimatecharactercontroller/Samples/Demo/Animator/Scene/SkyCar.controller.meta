@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 668548f2d645b46fd8376a81eb2a7ab7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233710
+  packageName: Ultimate Character Controller
+  packageVersion: 3.3.3
+  assetPath: Packages/com.opsive.ultimatecharactercontroller/Samples~/Demo/Animator/Scene/SkyCar.controller
+  uploadId: 836594

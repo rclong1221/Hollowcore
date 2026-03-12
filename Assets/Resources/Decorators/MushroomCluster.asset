@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a99717ad0f34b45a19b82121a7cdd608, type: 3}
+  m_Name: MushroomCluster
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Decorators.DecoratorDefinition
+  DecoratorID: 2
+  DecoratorName: Mushroom Cluster
+  Prefab: {fileID: 0}
+  Variations: []
+  RequiredSurface: 0
+  MinSpacing: 3
+  SpawnProbability: 0.12
+  MinCaveRadius: 2
+  ScaleWithCaveSize: 0
+  MinScale: 0.8
+  MaxScale: 1.2
+  MinDepth: 10
+  MaxDepth: 1000
+  AllowedBiomeIDs: 
+  RandomYRotation: 1
+  AlignToSurface: 1
+  IsGiantDecorator: 0
+  MaxHeight: 50
+  LODImportance: 1
+  CustomMaxChunkDistance: 0
+  UseGPUInstancing: 0
+  InstancedMesh: {fileID: 0}
+  InstancedMaterial: {fileID: 0}

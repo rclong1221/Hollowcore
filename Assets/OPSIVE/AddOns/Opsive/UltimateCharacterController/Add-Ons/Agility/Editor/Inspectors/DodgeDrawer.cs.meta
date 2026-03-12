@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 34076f81103a66643808e73ea7bba707
+timeCreated: 1543883633
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Editor/Inspectors/DodgeDrawer.cs
+  uploadId: 781910

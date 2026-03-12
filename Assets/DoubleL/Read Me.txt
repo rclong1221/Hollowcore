@@ -1,0 +1,51 @@
+This pack will no longer include animation files, but will instead update each individual asset.
+Updating this pack would be time-consuming and would continue to increase its size, so we'll be updating each asset individually.
+Existing purchasers can purchase the asset for free by clicking on the list on the asset description page.
+Updates will now be applied to each asset individually, so you only need to update the asset in question.
+If you have any questions, please email me or join Discord and leave a message.
+
+
+If you purchase this pack, you will receive the following assets for free:
+
+1. Easy FBX Anim Modifier
+2. Base Move Animation
+3. RPG Animations - Bow
+4. RPG_Animations - Action & Dead Pose
+5. RPG_Animations - NPC Actions
+6. RPG_Animations - One Hand Base
+7. RPG_Animations - One Hand Up
+8. RPG_Animations - Torch, Lantern, Enemy Attack, Hit, Magic
+9. RPG_Animations - Two Hand Base
+10. RPG_Animations - Two Hand Up
+
+If it doesn't show as free, please wait a moment and check again or refresh the page.
+
+
+e-mail
+doublelsoft@gmail.com
+
+Discord
+https://discord.com/invite/anYSN4PbGA
+
+
+
+이제 이 팩에서는 애니메이션 파일을 추가하지 않고 각 개별 에셋에서 업데이트할 것입니다.
+이 팩을 업데이트하게 되면 많은 시간을 낭비하게 되며 용량 또한 계속 증가하기 때문에 개별 에셋에서 업데이트하도록 하겠습니다.
+기존 구매하신 분들은 에셋 설명 페이지에 나와있는 목록을 클릭하여 해당 에셋을 무료로 구매할 수 있습니다.
+이제 각각의 에셋에서 업데이트가 진행되기 때문에 해당 에셋만 업데이트하시면 됩니다.
+궁금한 점이 있다면 저에게 메일을 주시거나 디스코드에 참여하여 글 남겨주시면 감사하겠습니다.
+
+이 팩을 구매하시면 다음 목록의 에셋들을 무료로 받으실 수 있습니다.
+
+1. Easy FBX Anim Modifier
+2. Base Move Animation
+3. RPG Animations - Bow
+4. RPG_Animations - Action & Dead Pose
+5. RPG_Animations - NPC Actions
+6. RPG_Animations - One Hand Base
+7. RPG_Animations - One Hand Up
+8. RPG_Animations - Torch, Lantern, Enemy Attack, Hit, Magic
+9. RPG_Animations - Two Hand Base
+10. RPG_Animations - Two Hand Up
+
+만약 무료로 표시되지 않는다면 잠시 기다리셨다 다시 확인해 보시거나 페이지 새로고침을 해보시길 바랍니다.

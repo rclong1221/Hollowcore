@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ea17ff11f26b8be47835907fbd7387c0
+timeCreated: 1546224991
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/VisibleArmsThirdPersonObjectPreset.asset
+  uploadId: 781910

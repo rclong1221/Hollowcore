@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ae90513c6388c3146b631004a3311a54
+timeCreated: 1550740077
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/BalanceAdventurePreset.asset
+  uploadId: 781910

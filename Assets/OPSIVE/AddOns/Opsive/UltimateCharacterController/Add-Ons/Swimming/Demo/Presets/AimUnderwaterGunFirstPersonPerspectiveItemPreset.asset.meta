@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3912084b9fa16b147ad0e109db7f3fc7
+timeCreated: 1574018895
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/AimUnderwaterGunFirstPersonPerspectiveItemPreset.asset
+  uploadId: 781912

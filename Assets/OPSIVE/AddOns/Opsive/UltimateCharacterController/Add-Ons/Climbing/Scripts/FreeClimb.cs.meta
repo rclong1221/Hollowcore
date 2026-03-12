@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 286fe31ea086ba24b9b98c6d5e34ad4a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248579
+  packageName: Climbing Pack for Opsive Character Controllers
+  packageVersion: 2.0.5
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Climbing/Scripts/FreeClimb.cs
+  uploadId: 781911

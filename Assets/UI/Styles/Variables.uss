@@ -1,0 +1,182 @@
+/*
+ * DIG UI Design System - Global Variables
+ * EPIC 15.8: Core Architecture & UI Overhaul
+ * 
+ * Usage: @import url("Variables.uss");
+ * Then reference variables: background-color: var(--color-primary);
+ */
+
+:root {
+    /* ===========================================
+     * COLOR PALETTE
+     * =========================================== */
+    
+    /* Primary Colors - Main brand/theme colors */
+    --color-primary: #2E86AB;
+    --color-primary-light: #4DA6C9;
+    --color-primary-dark: #1E5A73;
+    --color-primary-hover: #3A9BC4;
+    
+    /* Secondary Colors - Supporting colors */
+    --color-secondary: #A23B72;
+    --color-secondary-light: #C45A92;
+    --color-secondary-dark: #7A2D56;
+    
+    /* Accent Colors - Highlights, calls to action */
+    --color-accent: #F18F01;
+    --color-accent-light: #FFB84D;
+    --color-accent-dark: #C47400;
+    
+    /* Semantic Colors - Status indicators */
+    --color-success: #2ECC71;
+    --color-success-light: #58D68D;
+    --color-success-dark: #27AE60;
+    
+    --color-warning: #F39C12;
+    --color-warning-light: #F5B041;
+    --color-warning-dark: #D68910;
+    
+    --color-danger: #E74C3C;
+    --color-danger-light: #EC7063;
+    --color-danger-dark: #C0392B;
+    
+    --color-info: #3498DB;
+    --color-info-light: #5DADE2;
+    --color-info-dark: #2980B9;
+    
+    /* Background Colors */
+    --color-bg-dark: #0D0D0D;
+    --color-bg-medium: #1A1A1A;
+    --color-bg-light: #2D2D2D;
+    --color-bg-panel: rgba(20, 20, 20, 0.95);
+    --color-bg-glass: rgba(30, 30, 30, 0.85);
+    --color-bg-overlay: rgba(0, 0, 0, 0.75);
+    
+    /* Text Colors */
+    --color-text-primary: #FFFFFF;
+    --color-text-secondary: #B0B0B0;
+    --color-text-muted: #666666;
+    --color-text-disabled: #444444;
+    --color-text-inverse: #0D0D0D;
+    
+    /* Border Colors */
+    --color-border-subtle: rgba(255, 255, 255, 0.1);
+    --color-border-default: rgba(255, 255, 255, 0.2);
+    --color-border-strong: rgba(255, 255, 255, 0.4);
+    --color-border-focus: var(--color-primary);
+    
+    /* ===========================================
+     * SPACING METRICS (8px grid system)
+     * =========================================== */
+    
+    --spacing-xxs: 2px;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 48px;
+    --spacing-xxxl: 64px;
+    
+    /* ===========================================
+     * TYPOGRAPHY
+     * =========================================== */
+    
+    /* Font Families */
+    --font-primary: resource("Fonts/Roboto-Regular SDF");
+    --font-heading: resource("Fonts/Roboto-Bold SDF");
+    --font-mono: resource("Fonts/RobotoMono-Regular SDF");
+    
+    /* Font Sizes */
+    --font-size-xs: 10px;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 18px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 32px;
+    --font-size-hero: 48px;
+    
+    /* Line Heights */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.5px;
+    --letter-spacing-normal: 0px;
+    --letter-spacing-wide: 1px;
+    --letter-spacing-wider: 2px;
+    
+    /* ===========================================
+     * BORDERS & RADIUS
+     * =========================================== */
+    
+    --border-width-thin: 1px;
+    --border-width-default: 2px;
+    --border-width-thick: 3px;
+    
+    --radius-none: 0px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-full: 9999px;
+    
+    /* ===========================================
+     * SHADOWS & EFFECTS
+     * =========================================== */
+    
+    /* Shadows not directly supported in USS, use border-color opacity tricks */
+    
+    /* Transitions */
+    --transition-fast: 0.1s;
+    --transition-normal: 0.2s;
+    --transition-slow: 0.3s;
+    
+    /* ===========================================
+     * COMPONENT SIZES
+     * =========================================== */
+    
+    /* Buttons */
+    --button-height-sm: 28px;
+    --button-height-md: 36px;
+    --button-height-lg: 48px;
+    
+    /* Input Fields */
+    --input-height-sm: 28px;
+    --input-height-md: 36px;
+    --input-height-lg: 48px;
+    
+    /* Icons */
+    --icon-size-sm: 16px;
+    --icon-size-md: 24px;
+    --icon-size-lg: 32px;
+    --icon-size-xl: 48px;
+    
+    /* ===========================================
+     * Z-INDEX LAYERS
+     * =========================================== */
+    
+    /* Note: USS doesn't use z-index, but these are reference values for code */
+    --z-index-base: 0;
+    --z-index-dropdown: 100;
+    --z-index-sticky: 200;
+    --z-index-modal: 300;
+    --z-index-tooltip: 400;
+    --z-index-notification: 500;
+    
+    /* ===========================================
+     * HEALTH / STATUS BAR COLORS
+     * =========================================== */
+    
+    --color-health-full: #2ECC71;
+    --color-health-high: #58D68D;
+    --color-health-medium: #F39C12;
+    --color-health-low: #E74C3C;
+    --color-health-critical: #922B21;
+    
+    --color-shield: #3498DB;
+    --color-stamina: #F1C40F;
+    --color-mana: #9B59B6;
+    --color-xp: #1ABC9C;
+}

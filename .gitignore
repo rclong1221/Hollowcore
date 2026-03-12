@@ -100,9 +100,12 @@ Desktop.ini
 .bolt/
 
 # Third-party reference code
-# /OPSIVE/
+/OPSIVE/
+/AddOns/
 
 mono_crash.*
+
+# Asset Store / Third-party assets (re-import from Package Manager / Asset Store on fresh clone)
 Assets/Kevin Iglesias/
 Assets/Survival Climbing Animations Pack/
 Assets/UModelerX_MediavalWeapons_URP_Editable/
@@ -116,3 +119,36 @@ Assets/Sci-Fi Boss pack.meta
 Assets/Sci-Fi Boss pack/
 Assets/SciFiCharactersUltimateCollection.meta
 Assets/SciFiCharactersUltimateCollection/
+Assets/SoftKitty/
+Assets/SoftKitty.meta
+Assets/Universal Sound FX/
+Assets/Universal Sound FX.meta
+Assets/Grruzam Powerful Sword Animation*/
+Assets/Grruzam Powerful Sword Animation*.meta
+Assets/UI FX Pack/
+Assets/UI FX Pack.meta
+Assets/Magic Spell Sound Effects Pack Vol 1/
+Assets/Magic Spell Sound Effects Pack Vol 1.meta
+Assets/Amazing Assets/
+Assets/Amazing Assets.meta
+Assets/BloodEffectsPack/
+Assets/BloodEffectsPack.meta
+Assets/PixPlays/
+Assets/PixPlays.meta
+Assets/Stylized_Sword_RamsterZ/
+Assets/Stylized_Sword_RamsterZ.meta
+Assets/Defender Knife Set/
+Assets/Defender Knife Set.meta
+Assets/Footstep Sounds Pack - Lite Edition/
+Assets/Footstep Sounds Pack - Lite Edition.meta
+Assets/Gun Sounds Pack Vol 1/
+Assets/Gun Sounds Pack Vol 1.meta
+Assets/DamageNumbersPro/
+Assets/DamageNumbersPro.meta
+Assets/ProceduralSpider/
+Assets/ProceduralSpider.meta
+Assets/TextMesh Pro/
+Assets/TextMesh Pro.meta
+
+# Burst debug info (regenerated on build)
+DIG_BurstDebugInformation_DoNotShip/

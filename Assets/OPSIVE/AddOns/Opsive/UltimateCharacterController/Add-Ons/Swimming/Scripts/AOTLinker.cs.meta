@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4d51152b1737eae4786db094e2f0abfd
+timeCreated: 1492388094
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Scripts/AOTLinker.cs
+  uploadId: 781912

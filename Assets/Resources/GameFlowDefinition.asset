@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797f131990fce45eb8ce0e5a058cb120, type: 3}
+  m_Name: GameFlowDefinition
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.SceneManagement.GameFlowDefinitionSO
+  FlowName: Default
+  InitialState: MainMenu
+  States:
+  - StateId: MainMenu
+    Scene: {fileID: 11400000, guid: 60ae07895c279424ea76f1e323110b45, type: 2}
+    AdditiveScenes: []
+    LoadingScreen: {fileID: 0}
+    RequiresNetwork: 0
+    InputContext: 1
+    OnEnterEvent: 
+    OnExitEvent: 
+  - StateId: Lobby
+    Scene: {fileID: 11400000, guid: aeaf6de7714fc4402b57908bf7832d4b, type: 2}
+    AdditiveScenes: []
+    LoadingScreen: {fileID: 0}
+    RequiresNetwork: 0
+    InputContext: 1
+    OnEnterEvent: 
+    OnExitEvent: 
+  - StateId: Gameplay
+    Scene: {fileID: 11400000, guid: f6997f03a98d54f75b136600622fc76d, type: 2}
+    AdditiveScenes: []
+    LoadingScreen: {fileID: 0}
+    RequiresNetwork: 1
+    InputContext: 0
+    OnEnterEvent: 
+    OnExitEvent: 
+  Transitions:
+  - FromState: MainMenu
+    ToState: Lobby
+    Condition: 0
+    TriggerEvent: EnterLobby
+    Animation: 1
+    AnimationDuration: 0.5
+  - FromState: Lobby
+    ToState: Gameplay
+    Condition: 0
+    TriggerEvent: StartGame
+    Animation: 1
+    AnimationDuration: 0.5
+  - FromState: Gameplay
+    ToState: Lobby
+    Condition: 0
+    TriggerEvent: ReturnToLobby
+    Animation: 1
+    AnimationDuration: 0.5
+  - FromState: Lobby
+    ToState: MainMenu
+    Condition: 0
+    TriggerEvent: LeaveLobby
+    Animation: 1
+    AnimationDuration: 0.3
+  DefaultLoadingScreen: {fileID: 11400000, guid: 9c293bc8d285444df8c91c13ead5edde, type: 2}
+  DefaultTransitionAnimation: 1
+  DefaultTransitionDuration: 0.5

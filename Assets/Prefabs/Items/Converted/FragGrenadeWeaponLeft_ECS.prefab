@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3190444626536291377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_Name
+      value: FragGrenadeWeaponLeft_ECS
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184720376067958, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114866566239185936, guid: 9df997da430176f479dd87cef769f661, type: 3}
+    - {fileID: 852726062422668768, guid: 9df997da430176f479dd87cef769f661, type: 3}
+    - {fileID: 114409810940466642, guid: 9df997da430176f479dd87cef769f661, type: 3}
+    - {fileID: 114973526947654420, guid: 9df997da430176f479dd87cef769f661, type: 3}
+    - {fileID: 114466138587324780, guid: 9df997da430176f479dd87cef769f661, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2300898820341940492}
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5639705595876136091}
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1056151406722397727}
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2167139523984484554}
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1617766074239543465}
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6533570428154661347}
+    - targetCorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -475508533266922035}
+  m_SourcePrefab: {fileID: 100100000, guid: 9df997da430176f479dd87cef769f661, type: 3}
+--- !u!1 &3189132219570909649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1317904565480928, guid: 9df997da430176f479dd87cef769f661, type: 3}
+  m_PrefabInstance: {fileID: 3190444626536291377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2300898820341940492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfaa20f795ce343e5a4d85c8c4aac81a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Weapons.Authoring.WeaponAuthoring
+  Type: 3
+  AnimatorItemID: 41
+  ClipSize: 30
+  StartingAmmo: 30
+  ReserveAmmo: 90
+  FireRate: 10
+  Damage: 20
+  Range: 100
+  SpreadAngle: 2
+  RecoilAmount: 5
+  RecoilRecovery: 10
+  ReloadTime: 2
+  IsAutomatic: 1
+  UseHitscan: 1
+  MeleeDamage: 50
+  MeleeRange: 2
+  AttackSpeed: 2
+  HitboxActiveStart: 0.2
+  HitboxActiveEnd: 0.6
+  ComboCount: 3
+  ComboWindow: 0.5
+  HitboxOffset: {x: 0, y: 1, z: 1}
+  HitboxSize: {x: 1, y: 1, z: 2}
+  MinThrowForce: 10
+  MaxThrowForce: 30
+  ChargeTime: 1
+  ThrowArc: 15
+  BlockDamageReduction: 0.7
+  ParryWindow: 0.15
+  BlockAngle: 120
+  StaminaCostPerBlock: 10
+  BowDrawTime: 1
+  BowBaseDamage: 20
+  BowMaxDamage: 80
+  BowProjectileSpeed: 50
+  BowProjectilePrefabIndex: 0
+  EnableAimAssist: 0
+  AimAssistStrength: 0.3
+  AimAssistRange: 50
+  AimAssistConeAngle: 20
+  AimAssistMagnetism: 0.5
+--- !u!114 &-5639705595876136091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57dabc098c773441993487e4eb58c086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Authoring.ItemAuthoring
+  ItemTypeId: 5243
+  DisplayName: FragGrenadeLeft
+  Category: 1
+  EquipDuration: 0.5
+  UnequipDuration: 0.3
+  IsStackable: 0
+  MaxStack: 1
+  DefaultQuickSlot: 1
+--- !u!114 &-1056151406722397727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
+--- !u!114 &-2167139523984484554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.NetCode.Authoring.Hybrid::Unity.NetCode.GhostAuthoringComponent
+  DefaultGhostMode: 0
+  SupportedGhostModes: 3
+  OptimizationMode: 0
+  Importance: 1
+  MaxSendRate: 0
+  prefabId: 74f5297f8456a4f0891e150f0bb59392
+  HasOwner: 1
+  SupportAutoCommandTarget: 1
+  TrackInterpolationDelay: 0
+  GhostGroup: 0
+  UsePreSerialization: 0
+  UseSingleBaseline: 0
+  RollbackPredictedSpawnedGhostState: 0
+  RollbackPredictionOnStructuralChanges: 1
+--- !u!114 &-1617766074239543465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b5dc98af0593b4589b67fcfc5b4c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Opsive.UltimateCharacterController::Opsive.UltimateCharacterController.ThirdPersonController.Items.ThirdPersonPerspectiveItem
+  m_States:
+  - m_Name: Default
+    m_Preset: {fileID: 0}
+    m_BlockList: []
+    m_Default: 1
+  m_Object: {fileID: 0}
+  m_SpawnParent:
+    m_ID: -1
+    m_Object: {fileID: 0}
+  m_LocalSpawnPosition: {x: 0, y: 0, z: 0}
+  m_LocalSpawnRotation: {x: 0, y: 0, z: 0}
+  m_LocalSpawnScale: {x: 1, y: 1, z: 1}
+  m_NonDominantHandIKTarget: {fileID: 0}
+  m_NonDominantHandIKTargetHint: {fileID: 0}
+  m_HolsterTarget:
+    m_ID: -1
+    m_Object: {fileID: 0}
+--- !u!114 &6533570428154661347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb8767511c98848b28ea68d2c5fe4859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Authoring.ItemAnimationConfigAuthoring
+  Category: {fileID: 11400000, guid: 30c925d32f956457796038aa00706a57, type: 2}
+  AnimatorItemID: 41
+  MovementSetID: 0
+  ComboCount: 0
+  UseDuration: 0
+  IsChanneled: 0
+  RequireAimToFire: 0
+  LockMovementDuringUse: 0
+  CancelUseOnMove: 0
+  IsTwoHanded: 0
+--- !u!114 &-475508533266922035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189132219570909649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293693f5028a94d63ba25c51a4dc3166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Bridges.WeaponAttachmentConfig
+  WieldTargetID: 50041002

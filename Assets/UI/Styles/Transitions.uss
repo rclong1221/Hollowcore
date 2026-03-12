@@ -1,0 +1,61 @@
+/* EPIC 18.1: Screen transition classes used by TransitionPlayer.
+   TransitionPlayer toggles these classes on screen root elements.
+   Duration is overridden inline by TransitionPlayer from TransitionProfileSO. */
+
+/* Base state: screens start invisible */
+.screen-transition-base {
+    opacity: 0;
+    transition-property: opacity, translate, scale;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+/* === Fade === */
+.screen-transition--fade-in {
+    opacity: 1;
+}
+
+/* === Slide Left === */
+.screen-transition--slide-left-start {
+    translate: -100% 0;
+}
+.screen-transition--slide-left-in {
+    opacity: 1;
+    translate: 0 0;
+}
+
+/* === Slide Right === */
+.screen-transition--slide-right-start {
+    translate: 100% 0;
+}
+.screen-transition--slide-right-in {
+    opacity: 1;
+    translate: 0 0;
+}
+
+/* === Slide Up === */
+.screen-transition--slide-up-start {
+    translate: 0 100%;
+}
+.screen-transition--slide-up-in {
+    opacity: 1;
+    translate: 0 0;
+}
+
+/* === Slide Down === */
+.screen-transition--slide-down-start {
+    translate: 0 -100%;
+}
+.screen-transition--slide-down-in {
+    opacity: 1;
+    translate: 0 0;
+}
+
+/* === Scale === */
+.screen-transition--scale-start {
+    scale: 0.8 0.8;
+}
+.screen-transition--scale-in {
+    opacity: 1;
+    scale: 1 1;
+}

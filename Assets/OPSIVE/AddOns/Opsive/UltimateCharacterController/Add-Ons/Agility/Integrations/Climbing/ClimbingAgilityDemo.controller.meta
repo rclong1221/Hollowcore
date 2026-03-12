@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cdfdfa3c12ddb2d4b95b5cdd12d41492
+timeCreated: 1512604475
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Integrations/Climbing/ClimbingAgilityDemo.controller
+  uploadId: 781910

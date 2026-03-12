@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee1335c30d533744c9be1af543d2c7ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105187
+  packageName: Invector FreeClimb Add-on
+  packageVersion: 1.6
+  assetPath: Assets/Invector-3rdPersonController/Add-ons/FreeClimb/Animations/VbotClimb/ClimbUP_Exit.anim
+  uploadId: 640431

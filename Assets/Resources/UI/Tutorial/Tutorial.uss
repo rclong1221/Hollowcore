@@ -1,0 +1,233 @@
+/*
+ * EPIC 18.4: Tutorial & Onboarding Styles
+ * Spotlight mask, tooltip bubble, popup panel, world marker, skip button
+ */
+
+/* =========================================
+ * SPOTLIGHT MASK
+ * ========================================= */
+
+.tutorial-spotlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tutorial-spotlight__mask {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* =========================================
+ * TOOLTIP BUBBLE
+ * ========================================= */
+
+.tutorial-tooltip {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.tutorial-tooltip--visible {
+    opacity: 1;
+}
+
+.tutorial-tooltip__arrow {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(18, 18, 22, 0.97);
+    rotate: 45deg;
+    margin-bottom: -6px;
+}
+
+.tutorial-tooltip__bubble {
+    padding: 16px 20px;
+    background-color: rgba(18, 18, 22, 0.97);
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(78, 166, 201, 0.6);
+    min-width: 200px;
+    max-width: 360px;
+}
+
+.tutorial-tooltip__title {
+    color: white;
+    font-size: 14px;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+    white-space: normal;
+}
+
+.tutorial-tooltip__message {
+    color: rgba(200, 200, 200, 0.9);
+    font-size: 12px;
+    margin-bottom: 12px;
+    white-space: normal;
+}
+
+.tutorial-tooltip__continue-btn {
+    color: #4DA6C9;
+    font-size: 12px;
+    -unity-font-style: bold;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #4DA6C9;
+    border-radius: 4px;
+    padding: 6px 16px;
+    align-self: flex-end;
+    cursor: link;
+}
+
+.tutorial-tooltip__continue-btn:hover {
+    background-color: rgba(78, 166, 201, 0.15);
+}
+
+/* =========================================
+ * POPUP PANEL
+ * ========================================= */
+
+.tutorial-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.tutorial-popup--visible {
+    opacity: 1;
+}
+
+.tutorial-popup__backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tutorial-popup__panel {
+    padding: 32px 40px;
+    background-color: rgba(18, 18, 22, 0.97);
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(78, 166, 201, 0.6);
+    align-items: center;
+    min-width: 320px;
+    max-width: 480px;
+}
+
+.tutorial-popup__title {
+    color: white;
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-bottom: 8px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.tutorial-popup__message {
+    color: rgba(200, 200, 200, 0.9);
+    font-size: 14px;
+    margin-bottom: 20px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.tutorial-popup__continue-btn {
+    color: white;
+    font-size: 14px;
+    -unity-font-style: bold;
+    background-color: #2E86AB;
+    border-width: 0;
+    border-radius: 4px;
+    padding: 8px 24px;
+    cursor: link;
+}
+
+.tutorial-popup__continue-btn:hover {
+    background-color: #3A9AC4;
+}
+
+/* =========================================
+ * WORLD MARKER
+ * ========================================= */
+
+.tutorial-world-marker {
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tutorial-world-marker__arrow {
+    width: 24px;
+    height: 24px;
+    background-color: #4DA6C9;
+    rotate: 45deg;
+    margin-bottom: 4px;
+}
+
+.tutorial-world-marker--pulse {
+    scale: 1.1 1.1;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.tutorial-world-marker__distance {
+    color: rgba(200, 200, 200, 0.8);
+    font-size: 11px;
+    -unity-text-align: middle-center;
+}
+
+/* =========================================
+ * SKIP BUTTON
+ * ========================================= */
+
+.tutorial-skip-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: rgba(200, 200, 200, 0.6);
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-width: 1px;
+    border-color: rgba(200, 200, 200, 0.3);
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: link;
+}
+
+.tutorial-skip-btn:hover {
+    color: white;
+    border-color: rgba(200, 200, 200, 0.6);
+}
+
+/* =========================================
+ * STEP COUNTER
+ * ========================================= */
+
+.tutorial-step-counter {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    color: rgba(200, 200, 200, 0.5);
+    font-size: 11px;
+    -unity-text-align: middle-center;
+}

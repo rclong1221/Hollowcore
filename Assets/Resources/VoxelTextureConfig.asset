@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62bc632aa1a14ce49f6298898141aa2, type: 3}
+  m_Name: VoxelTextureConfig
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Rendering.VoxelTextureConfig
+  TextureSize: 256
+  FilterMode: 1
+  AnisoLevel: 4
+  Textures:
+  - {fileID: 2800000, guid: fb9d69096eb664835b25e3b2f0a119ba, type: 3}
+  - {fileID: 2800000, guid: eee0cfd6b185a4098ad7fdee56f637fc, type: 3}
+  - {fileID: 2800000, guid: 72eb58b136b524bc0bb1993176cca3d8, type: 3}
+  - {fileID: 2800000, guid: e44e852cb7fa34f6baf8bc0a50379149, type: 3}
+  - {fileID: 2800000, guid: 24374febdb8704b818ef59b10396acc8, type: 3}
+  - {fileID: 2800000, guid: 60b1defeadf4741c691e4a6735c2d100, type: 3}
+  _textureArray: {fileID: 0}

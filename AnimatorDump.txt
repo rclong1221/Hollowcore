@@ -1,0 +1,28 @@
+Analyzing Controller: Assets/Art/Animations/Opsive/AddOns/Climbing/ClimbingDemo 1.controller
+Searching for transitions involving ItemID 26 (Shield)...
+
+Layer: Base Layer (Weight: 0, Mask: None)
+
+Layer: Left Hand Layer (Weight: 1, Mask: LeftHandMask)
+
+Layer: Right Hand Layer (Weight: 1, Mask: RightHandMask)
+
+Layer: Arms Layer (Weight: 1, Mask: ArmsMask)
+
+Layer: Upperbody Layer (Weight: 1, Mask: UpperbodyMask)
+
+Layer: Left Arm Layer (Weight: 1, Mask: LeftArmMask)
+
+Layer: Right Arm Layer (Weight: 1, Mask: RightArmMask)
+
+Layer: Left Upperbody Layer (Weight: 1, Mask: LeftUpperbodyMask)
+
+Layer: Right Upperbody Layer (Weight: 1, Mask: RightUpperbodyMask)
+
+Layer: Additive Layer (Weight: 1, Mask: UpperbodyMask)
+
+Layer: Additive Left Arm Layer (Weight: 1, Mask: LeftUpperbodyMask)
+
+Layer: Additive Right Arm Layer (Weight: 1, Mask: RightUpperbodyMask)
+
+Layer: Full Body Layer (Weight: 1, Mask: FullBodyMask)

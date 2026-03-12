@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 614798d484059654198bf74dc8d9183a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248579
+  packageName: Climbing Pack for Opsive Character Controllers
+  packageVersion: 2.0.5
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Climbing/Demo/Presets/MovingLadderAdventurePreset.asset
+  uploadId: 781911

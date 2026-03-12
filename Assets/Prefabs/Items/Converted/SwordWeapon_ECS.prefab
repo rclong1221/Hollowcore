@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &655573375622602819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_Name
+      value: SwordWeapon_ECS
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377624154112260176, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7738711813985956363, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 92009836025448687, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 222052640640944260, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 7915901840306792645, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 8814917915635142078, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 817095181496355677, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 5100179405440857045, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    - {fileID: 992997935721533028, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 408643801609359159}
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -9137337821155748201}
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2020877422232818250}
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5772779739027398159}
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6875493277055481075}
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5497996430783368003}
+    - targetCorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7544886230475993430}
+  m_SourcePrefab: {fileID: 100100000, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+--- !u!1 &148022888340580085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 798529714311038646, guid: 4c4efe98fbf79d643b2478da406744d2, type: 3}
+  m_PrefabInstance: {fileID: 655573375622602819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &408643801609359159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfaa20f795ce343e5a4d85c8c4aac81a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Weapons.Authoring.WeaponAuthoring
+  Type: 2
+  AnimatorItemID: 22
+  ClipSize: 30
+  StartingAmmo: 30
+  ReserveAmmo: 90
+  FireRate: 10
+  Damage: 20
+  Range: 100
+  SpreadAngle: 2
+  RecoilAmount: 5
+  RecoilRecovery: 10
+  ReloadTime: 2
+  IsAutomatic: 1
+  UseHitscan: 1
+  MeleeDamage: 50
+  MeleeRange: 2
+  AttackSpeed: 2
+  HitboxActiveStart: 0.2
+  HitboxActiveEnd: 0.6
+  ComboCount: 3
+  ComboWindow: 0.5
+  HitboxOffset: {x: 0, y: 1, z: 1}
+  HitboxSize: {x: 1, y: 1, z: 2}
+  MinThrowForce: 10
+  MaxThrowForce: 30
+  ChargeTime: 1
+  ThrowArc: 15
+  BlockDamageReduction: 0.7
+  ParryWindow: 0.15
+  BlockAngle: 120
+  StaminaCostPerBlock: 10
+  BowDrawTime: 1
+  BowBaseDamage: 20
+  BowMaxDamage: 80
+  BowProjectileSpeed: 50
+  BowProjectilePrefabIndex: 0
+  EnableAimAssist: 0
+  AimAssistStrength: 0.3
+  AimAssistRange: 50
+  AimAssistConeAngle: 20
+  AimAssistMagnetism: 0.5
+--- !u!114 &-9137337821155748201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57dabc098c773441993487e4eb58c086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Authoring.ItemAuthoring
+  ItemTypeId: 6679
+  DisplayName: Sword
+  Category: 1
+  EquipDuration: 0.5
+  UnequipDuration: 0.3
+  IsStackable: 0
+  MaxStack: 1
+  DefaultQuickSlot: 1
+--- !u!114 &-2020877422232818250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c16549610bfe4458aa9389201d072bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Entities.Hybrid::Unity.Entities.Hybrid.Baking.LinkedEntityGroupAuthoring
+--- !u!114 &5772779739027398159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c79d771cedb4794bf100ce60df5f764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.NetCode.Authoring.Hybrid::Unity.NetCode.GhostAuthoringComponent
+  DefaultGhostMode: 0
+  SupportedGhostModes: 3
+  OptimizationMode: 0
+  Importance: 1
+  MaxSendRate: 0
+  prefabId: 2522063dfae3140f29521e8698e67712
+  HasOwner: 1
+  SupportAutoCommandTarget: 1
+  TrackInterpolationDelay: 0
+  GhostGroup: 0
+  UsePreSerialization: 0
+  UseSingleBaseline: 0
+  RollbackPredictedSpawnedGhostState: 0
+  RollbackPredictionOnStructuralChanges: 1
+--- !u!114 &6875493277055481075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b5dc98af0593b4589b67fcfc5b4c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Opsive.UltimateCharacterController::Opsive.UltimateCharacterController.ThirdPersonController.Items.ThirdPersonPerspectiveItem
+  m_States:
+  - m_Name: Default
+    m_Preset: {fileID: 0}
+    m_BlockList: []
+    m_Default: 1
+  m_Object: {fileID: 0}
+  m_SpawnParent:
+    m_ID: -1
+    m_Object: {fileID: 0}
+  m_LocalSpawnPosition: {x: 0, y: 0, z: 0}
+  m_LocalSpawnRotation: {x: 0, y: 0, z: 0}
+  m_LocalSpawnScale: {x: 1, y: 1, z: 1}
+  m_NonDominantHandIKTarget: {fileID: 0}
+  m_NonDominantHandIKTargetHint: {fileID: 0}
+  m_HolsterTarget:
+    m_ID: -1
+    m_Object: {fileID: 0}
+--- !u!114 &-5497996430783368003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb8767511c98848b28ea68d2c5fe4859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Authoring.ItemAnimationConfigAuthoring
+  Category: {fileID: 11400000, guid: 1affbeb1c7c4d47e9880922606d2a2ea, type: 2}
+  AnimatorItemID: 22
+  MovementSetID: 0
+  ComboCount: 2
+  UseDuration: 0.5
+  IsChanneled: 0
+  RequireAimToFire: 0
+  LockMovementDuringUse: 0
+  CancelUseOnMove: 0
+  IsTwoHanded: 0
+--- !u!114 &7544886230475993430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148022888340580085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293693f5028a94d63ba25c51a4dc3166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Bridges.WeaponAttachmentConfig
+  WieldTargetID: 50022001

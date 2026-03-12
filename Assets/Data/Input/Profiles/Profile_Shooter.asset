@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b362d82dd4848e28fc0c6a3728ad24, type: 3}
+  m_Name: Profile_Shooter
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Core.Input.InputParadigmProfile
+  paradigm: 0
+  displayName: Shooter/Souls
+  description: Mouse always controls camera. WASD moves relative to camera. Cursor
+    locked.
+  icon: {fileID: 0}
+  cursorFreeByDefault: 0
+  temporaryCursorFreeKey: 0
+  cameraOrbitMode: 0
+  wasdEnabled: 1
+  clickToMoveEnabled: 0
+  clickToMoveButton: 0
+  usePathfinding: 0
+  facingMode: 0
+  adTurnsCharacter: 0
+  useScreenRelativeMovement: 0
+  qeRotationEnabled: 0
+  edgePanEnabled: 0
+  scrollZoomEnabled: 1
+  compatibleCameraModes: 00

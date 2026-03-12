@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c34ee26d8844cc043851f4ed3f8e2607
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/LedgeStrafeUltimateCharacterLocomotionPreset.asset
+  uploadId: 781910

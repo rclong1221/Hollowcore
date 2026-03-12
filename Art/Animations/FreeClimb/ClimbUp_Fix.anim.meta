@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 477bce13bcfdde74a9b2090ac373f21c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105187
+  packageName: Invector FreeClimb Add-on
+  packageVersion: 1.6
+  assetPath: Assets/Invector-3rdPersonController/Add-ons/FreeClimb/Animations/ClimbUp_Fix.anim
+  uploadId: 640431

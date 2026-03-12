@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbaee98d9722b4c6ca5b0c0e9cf5113c, type: 3}
+  m_Name: Hard
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Lobby.DifficultyDefinitionSO
+  DifficultyId: 1
+  DisplayName: Hard
+  Description: Hard difficulty.
+  Icon: {fileID: 0}
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  EnemyHealthScale: 1.5
+  EnemyDamageScale: 1.3
+  EnemySpawnRateScale: 1.2
+  LootQuantityScale: 1.2
+  LootQualityBonus: 0.1
+  XPMultiplier: 1.5
+  CurrencyMultiplier: 1.25
+  UnlockRequirement: 0

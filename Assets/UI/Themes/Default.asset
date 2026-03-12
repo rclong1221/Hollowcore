@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf252b3a93d44120a8ae614684bbf2c, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: DIG.UI::DIG.UI.Core.Services.UIThemeSO
+  ThemeName: Default
+  Primary: {r: 0.13, g: 0.59, b: 0.95, a: 1}
+  PrimaryLight: {r: 0.39, g: 0.71, b: 0.96, a: 1}
+  PrimaryDark: {r: 0.1, g: 0.46, b: 0.82, a: 1}
+  Background: {r: 0.1, g: 0.1, b: 0.18, a: 1}
+  Surface: {r: 0.09, g: 0.13, b: 0.24, a: 1}
+  BackgroundPanel: {r: 0.12, g: 0.12, b: 0.2, a: 0.95}
+  TextPrimary: {r: 0.88, g: 0.88, b: 0.88, a: 1}
+  TextSecondary: {r: 0.62, g: 0.62, b: 0.62, a: 1}
+  Success: {r: 0.3, g: 0.69, b: 0.31, a: 1}
+  Warning: {r: 1, g: 0.6, b: 0, a: 1}
+  Error: {r: 0.96, g: 0.26, b: 0.21, a: 1}
+  PrimaryFont: {fileID: 0}
+  HeadingFont: {fileID: 0}

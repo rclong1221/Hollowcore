@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1e1a155f10f287141be14fc499f365ca
+timeCreated: 1539179683
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Scripts/Hang.cs
+  uploadId: 781910

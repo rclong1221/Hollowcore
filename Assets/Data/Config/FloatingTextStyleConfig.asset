@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c371ebcbf5ef64c6d951fa5c7d3ffeed, type: 3}
+  m_Name: FloatingTextStyleConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Combat.UI.FloatingText.FloatingTextStyleConfig
+  normalStyle:
+    Style: 0
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    FontSize: 24
+    Duration: 1.5
+    RiseSpeed: 1
+    FadeStartTime: 0.8
+    ScaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseOutline: 1
+    OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  importantStyle:
+    Style: 1
+    Color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    FontSize: 32
+    Duration: 2
+    RiseSpeed: 1
+    FadeStartTime: 0.8
+    ScaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseOutline: 1
+    OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  warningStyle:
+    Style: 2
+    Color: {r: 1, g: 0.5, b: 0, a: 1}
+    FontSize: 28
+    Duration: 2
+    RiseSpeed: 1
+    FadeStartTime: 0.8
+    ScaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseOutline: 1
+    OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  successStyle:
+    Style: 3
+    Color: {r: 0, g: 1, b: 0, a: 1}
+    FontSize: 30
+    Duration: 2
+    RiseSpeed: 1
+    FadeStartTime: 0.8
+    ScaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseOutline: 1
+    OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  failureStyle:
+    Style: 4
+    Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    FontSize: 22
+    Duration: 1
+    RiseSpeed: 1
+    FadeStartTime: 0.8
+    ScaleCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    UseOutline: 1
+    OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+  burnColor: {r: 1, g: 0.4, b: 0, a: 1}
+  bleedColor: {r: 0.8, g: 0, b: 0, a: 1}
+  poisonColor: {r: 0.5, g: 0.8, b: 0.2, a: 1}
+  freezeColor: {r: 0.5, g: 0.8, b: 1, a: 1}
+  stunColor: {r: 1, g: 1, b: 0.3, a: 1}
+  buffColor: {r: 0.3, g: 1, b: 0.5, a: 1}
+  debuffColor: {r: 0.8, g: 0.3, b: 0.8, a: 1}

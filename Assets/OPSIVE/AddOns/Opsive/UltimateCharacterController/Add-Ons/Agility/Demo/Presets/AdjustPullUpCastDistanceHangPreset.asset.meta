@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eadd109c0c529b64ea20f1b79eb63dbc
+timeCreated: 1553141695
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 240069
+  packageName: Agility Pack for Opsive Character Controllers
+  packageVersion: 2.0.6
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Agility/Demo/Presets/AdjustPullUpCastDistanceHangPreset.asset
+  uploadId: 781910

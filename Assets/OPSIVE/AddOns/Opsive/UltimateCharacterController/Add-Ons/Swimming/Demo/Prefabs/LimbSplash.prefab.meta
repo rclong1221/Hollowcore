@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 53ad3eb8d708efb44874d77d062f80a8
+timeCreated: 1573326535
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Prefabs/LimbSplash.prefab
+  uploadId: 781912

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91c95f3cb7b962148a26eff83cf4bfc5
+timeCreated: 1543188233
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Demo.unity
+  uploadId: 781912

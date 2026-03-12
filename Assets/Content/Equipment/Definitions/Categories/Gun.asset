@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d91f326303344d1a93482dcf40db89, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.Items.Definitions.WeaponCategoryDefinition
+  CategoryID: Gun
+  DisplayName: Firearm
+  ParentCategory: {fileID: 0}
+  DefaultMovementSetID: 0
+  AnimatorSubstateMachine: Gun
+  GripType: 0
+  CanDualWield: 0
+  AllowedOffHandCategories: []
+  UseStyle: 0
+  DefaultComboCount: 1
+  DefaultUseDuration: 0.1
+  LockMovementOnUse: 0
+  DefaultEquipDuration: 0.3
+  DefaultUnequipDuration: 0.3
+  InputProfile: {fileID: 0}
+  CustomData: []

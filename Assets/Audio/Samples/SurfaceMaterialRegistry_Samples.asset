@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66506390ff1309549b38e81ec67f64b2, type: 3}
+  m_Name: SurfaceMaterialRegistry_Samples
+  m_EditorClassIdentifier: Assembly-CSharp::Audio.Systems.SurfaceMaterialRegistry
+  DefaultMaterial: {fileID: 11400000, guid: a62d86a1b50c20243aafe4d73beed9eb, type: 2}
+  Materials:
+  - {fileID: 11400000, guid: a62d86a1b50c20243aafe4d73beed9eb, type: 2}
+  - {fileID: 11400000, guid: c3f0d9456c43bd141abd7e8a61138bb3, type: 2}

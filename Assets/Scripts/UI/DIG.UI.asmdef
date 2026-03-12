@@ -1,0 +1,26 @@
+{
+    "name": "DIG.UI",
+    "rootNamespace": "DIG.UI",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.NetCode",
+        "Unity.Collections",
+        "Unity.Burst",
+        "Unity.Physics",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "Unity.Cinemachine"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

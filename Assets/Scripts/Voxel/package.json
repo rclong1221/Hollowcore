@@ -1,0 +1,25 @@
+{
+  "name": "com.dig.voxel",
+  "version": "1.0.0",
+  "displayName": "DIG Voxel Engine",
+  "description": "High-performance DOTS-based Voxel Engine with Marching Cubes and Blocky meshing.",
+  "unity": "2022.3",
+  "keywords": [
+    "voxel",
+    "dots",
+    "ecs",
+    "terrain"
+  ],
+  "author": {
+    "name": "DIG Team",
+    "url": "https://www.dig.com"
+  },
+  "dependencies": {
+    "com.unity.entities": "1.0.16",
+    "com.unity.physics": "1.0.16",
+    "com.unity.netcode": "1.0.16",
+    "com.unity.burst": "1.8.8",
+    "com.unity.collections": "2.1.4",
+    "com.unity.mathematics": "1.2.6"
+  }
+}

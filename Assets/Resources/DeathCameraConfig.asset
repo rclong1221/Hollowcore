@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20f6fa2aab476445bab7fd09c52d440f, type: 3}
+  m_Name: DeathCameraConfig
+  m_EditorClassIdentifier: Assembly-CSharp::DIG.DeathCamera.DeathCameraConfigSO
+  ConfigName: Default
+  PhaseSequence: 000102
+  SkipAllInput: 32
+  KillCamEnabled: 1
+  KillCamDuration: 3
+  KillCamOrbitRadius: 5
+  KillCamOrbitHeight: 3
+  KillCamOrbitSpeed: 30
+  KillCamSlowMotion: 0
+  KillCamTimeScale: 0.25
+  KillCamTransitionIn: 0.3
+  DeathRecapEnabled: 1
+  DeathRecapDuration: 5
+  ShowDamageBreakdown: 1
+  ShowRespawnTimer: 1
+  SpectatorEnabled: 1
+  DefaultSpectatorMode: 0
+  AllowFreeCam: 1
+  AllowLockedFollow: 1
+  ShowSpectatorHUD: 1
+  TransitionBetweenPlayers: 0.5
+  SpectatorTransitionIn: 0.5
+  FollowDistance: 5
+  FollowHeight: 2
+  FollowSmoothTime: 0.15
+  FreeCamSpeed: 10
+  FreeCamFastMultiplier: 3
+  FreeCamSensitivity: 2
+  RespawnTransitionDuration: 0.5
+  FOV: 60
+  NearClip: 0.1

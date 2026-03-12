@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9302a2be61a8462794455d4fd74c06c, type: 3}
+  m_Name: DecoratorRegistry
+  m_EditorClassIdentifier: DIG.Voxel::DIG.Voxel.Decorators.DecoratorRegistry
+  Decorators:
+  - {fileID: 11400000, guid: 58f4eaf3d84f64d2b83450dbf7d76a93, type: 2}
+  - {fileID: 11400000, guid: e08e97158332e472cafdec1b3cfbf23f, type: 2}
+  - {fileID: 11400000, guid: 059fbf3cdc0254dc1a326534b470981b, type: 2}
+  - {fileID: 11400000, guid: 39f5c7232883541288ec397aee960367, type: 2}
+  - {fileID: 11400000, guid: d1750d8e53f984b4198b883b00d4f5f3, type: 2}
+  - {fileID: 11400000, guid: f30d56eecc67a4a65852f767b4049990, type: 2}
+  - {fileID: 11400000, guid: 97e0b59b4afb64fb499f6a471349b222, type: 2}
+  - {fileID: 11400000, guid: 8fd386cf231ed440484ff0054078718e, type: 2}
+  MaxDecoratorsPerChunk: 50
+  GlobalSpawnMultiplier: 1
+  EnableDecorators: 1

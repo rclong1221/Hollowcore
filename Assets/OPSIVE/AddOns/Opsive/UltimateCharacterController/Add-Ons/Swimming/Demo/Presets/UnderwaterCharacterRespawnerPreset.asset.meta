@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7bb12ab8dba650848b041065adc4b86e
+timeCreated: 1573769558
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 248580
+  packageName: Swimming Pack for Opsive Character Controllers
+  packageVersion: 2.0.4
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo/Presets/UnderwaterCharacterRespawnerPreset.asset
+  uploadId: 781912
