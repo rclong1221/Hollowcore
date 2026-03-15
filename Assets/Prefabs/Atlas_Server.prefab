@@ -487,6 +487,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e88266b54de15624ab3bb0c2b6251323, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6114635488663802510}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e88266b54de15624ab3bb0c2b6251323, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8737162698746692016}
   m_SourcePrefab: {fileID: 100100000, guid: e88266b54de15624ab3bb0c2b6251323, type: 3}
 --- !u!1 &265378045777482510 stripped
 GameObject:
@@ -1206,6 +1209,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DIG.Combat.Abilities.AbilityLoadoutAuthoring
   loadout: {fileID: 11400000, guid: c22cd9506dedc4cc5836ab9f6e0a9493, type: 2}
+--- !u!114 &8737162698746692016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265378045777482510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e17569694a5f4e6fb659cef3886778d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Hollowcore.Chassis::Hollowcore.Chassis.Authoring.ChassisAuthoring
+  StartingLimbs:
+  - {fileID: 11400000, guid: 58b2d5d50993e46a096e2cd9abd6dd98, type: 2}
+  - {fileID: 11400000, guid: d2b4f14b9d6ff4492804847145094519, type: 2}
+  - {fileID: 11400000, guid: 9619e92e597db44c1a504a6e007b8253, type: 2}
+  - {fileID: 11400000, guid: 98b504406ba844f97b5c2006d69b8a79, type: 2}
+  - {fileID: 11400000, guid: a8c7b820282cb4765bacb5e1cc6e23f8, type: 2}
+  - {fileID: 11400000, guid: 67cfd3b711e294e7499496c17114a459, type: 2}
 --- !u!4 &640952888946936244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e88266b54de15624ab3bb0c2b6251323, type: 3}
